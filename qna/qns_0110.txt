@@ -1,0 +1,14 @@
+A machine learning engineer is preparing a data frame for a supervised learning task with the Amazon SageMaker Linear Learner algorithm. The ML engineer notices the target label classes are highly imbalanced and multiple feature columns contain missing values. The proportion of missing values across the entire data frame is less than 5%. What should the ML engineer do to minimize bias due to missing values?
+
+A.
+Replace each missing value by the mean or median across non-missing values in same row.
+
+B.
+Delete observations that contain missing values because these represent less than 5% of the data
+
+C.
+Replace each missing value by the mean or median across non-missing values in the same column.
+
+D.
+For each feature, approximate the missing values using supervised learning based on other features.
+

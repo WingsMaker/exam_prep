@@ -1,0 +1,14 @@
+A Data Scientist is working on an application that performs sentiment analysis. The validation accuracy is poor and the Data Scientist thinks that the cause may be a rich vocabulary and a low average frequency of words in the dataset. Which tool should be used to improve the validation accuracy?
+
+A.
+Amazon Comprehend syntax analysts and entity detection
+
+B.
+Amazon SageMaker BlazingText allow mode
+
+C.
+Natural Language Toolkit (NLTK) stemming and stop word removal
+
+D.
+Scikit-learn term frequency-inverse document frequency (TF-IDF) vectorizers
+

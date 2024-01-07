@@ -1,0 +1,14 @@
+Which probability distribution would describe the likelihood of flipping a coin "heads"?
+
+A.
+Bernoulli Distribution
+
+B.
+Normal Distribution
+
+C.
+Poisson Distribution
+
+D.
+Binomial Distribution
+

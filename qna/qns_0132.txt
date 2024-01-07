@@ -1,0 +1,14 @@
+A security and networking company wants to use ML to flag certain IP addresses that have been known to send spam and phishing information. The company wants to build an ML model based on previous user feedback indicating whether specific IP addresses have been connected to a website designed for spam and phishing. What is the simplest solution that the company can implement?
+
+A.
+Regression
+
+B.
+Classification
+
+C.
+Natural language processing (NLP)
+
+D.
+A rule-based solution should be used instead of ML
+

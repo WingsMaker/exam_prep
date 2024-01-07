@@ -1,0 +1,14 @@
+While working on a neural network project, a Machine Learning Specialist discovers that some features in the data have very high magnitude resulting in this data being weighted more in the cost function. What should the Specialist do to ensure better convergence during backpropagation?
+
+A.
+Dimensionality reduction
+
+B.
+Data normalization
+
+C.
+Model regularization
+
+D.
+Data augmentation for the minority class
+

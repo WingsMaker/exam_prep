@@ -1,0 +1,17 @@
+An agency collects census information within a country to determine healthcare and social program needs by province and city. The census form collects responses for approximately 500 questions from each citizen. Which combination of algorithms would provide the appropriate insights? (Select TWO)
+
+A.
+The factorization machines (FM) algorithm
+
+B.
+The Latent Dirichlet Allocation (LDA) algorithm
+
+C.
+The principal component analysis (PCA) algorithm
+
+D.
+The k-means algorithm
+
+E.
+The Random Cut Forest (RCF) algorithm
+

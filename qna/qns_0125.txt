@@ -1,0 +1,25 @@
+A Machine Learning Specialist is developing a custom video recommendation model for an application The dataset used to train this model is very large with millions of data points and is hosted in an Amazon S3 bucket The Specialist wants to avoid loading all of this data onto an Amazon SageMaker notebook instance because it would take hours to move and will exceed the attached 5 GB Amazon EBS volume on the notebook instance.
+Which approach allows the Specialist to use all the data to train the model?
+
+A. Load a smaller subset of the data into the SageMaker notebook and train locally
+
+B. Confirm that the training code is executing and the model parameters seem reasonable
+
+C. Initiate a SageMaker training job using the full dataset from the S3 bucket using Pipe input mode.
+
+D. Launch an Amazon EC2 instance with an AWS Deep Learning AMI and attach the S3 bucket to the instance
+
+E. Train on a small amount of the data to verify the training code and hyperparameter
+
+F. Go back to Amazon SageMaker and train using the full dataset
+
+G. Use AWS Glue to train a model using a small subset of the data to confirm that the data will be compatiblewith Amazon SageMaker
+
+H. Initiate a SageMaker training job using the full dataset from the S3 bucket usingPipe input mode.
+
+I. Load a smaller subset of the data into the SageMaker notebook and train locally
+
+J. Confirm that the training code is executing and the model parameters seem reasonable
+
+K. Launch an Amazon EC2 instance with an AWS Deep Learning AMI and attach the S3 bucket to train the full dataset.
+

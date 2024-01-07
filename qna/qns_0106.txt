@@ -1,0 +1,16 @@
+You work for a real estate company where you are building a machine learning model to predict the prices of houses.
+You are using a regression decision tree. As you train your model you see that it is overfitted to your training data and that it doesn't generalize well to unseen data. How can you improve your situation and get better training results in the most efficient way?
+
+A.
+Use a random forest by building multiple randomized decision trees and averaging their outputs to get the predictions of the housing prices.
+
+B.
+Gather additional training data that gives a more diverse representation of the housing price data.
+
+C.
+Use the 'dropout' technique to penalize large weights and prevent overfitting.
+
+D.
+Use feature selection to eliminate irrelevant features and iteratively train your model until you eliminate the overfitting.
+
+

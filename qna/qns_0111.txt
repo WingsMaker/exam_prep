@@ -1,0 +1,14 @@
+You are a data scientist working for a cancer screening center. The center has gathered data on many patients that have been screened over the years. The data is obviously skewed toward true negative results, as most screened patients don't have cancer. You are evaluating several machine learning models to decide which model best predicts true positives when using your cancer screening data. You have split your data into a 70/30 ratio of training set to test set. You now need to decide which metric to use to evaluate your models. Which metric will most accurately determine the model best suited to solve your classification problem?
+
+A.
+ROC Curve
+
+B.
+Precision
+
+C.
+Recall
+
+D.
+PR Curve
+

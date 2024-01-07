@@ -1,0 +1,15 @@
+A Data Scientist wants to use the Amazon SageMaker hyperparameter tuning job to automatically tune a random forest model. What API does the Amazon SageMaker SDK use to create and interact with the Amazon SageMaker hyperparameter tuning jobs?
+
+A.
+YperparameterTunerJob()
+
+B.
+HyperparameterTuner()
+
+C.
+
+HyperparameterTuningJobs()
+
+D.
+Hyperparameter()
+

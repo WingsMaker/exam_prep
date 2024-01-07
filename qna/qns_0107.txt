@@ -1,0 +1,17 @@
+A Machine Learning Specialist is configuring Amazon SageMaker so multiple Data Scientists can access notebooks, train models, and deploy endpoints. To ensure the best operational performance, the Specialist needs to be able to track how often the Scientists are deploying models, GPU and CPU utilization on the deployed SageMaker endpoints, and all errors that are generated when an endpoint is invoked. Which services are integrated with Amazon SageMaker to track this information? (Select TWO.)
+
+A.
+AWS CloudTrail
+
+B.
+AWS Health
+
+C.
+AWS Trusted Advisor
+
+D.
+Amazon CloudWatch
+
+E.
+AWS Config
+

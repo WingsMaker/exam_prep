@@ -1,0 +1,14 @@
+An analytics company wants to use a fully managed service that automatically scales to handle the transfer of its Apache web logs, syslogs, text and videos on their webserver to Amazon S3 with minimum transformation. What service can be used for this process?
+
+A.
+Kinesis Data Streams
+
+B.
+Kinesis Firehose
+
+C.
+Kinesis Data Analytics
+
+D.
+Amazon Kinesis Video Streams
+

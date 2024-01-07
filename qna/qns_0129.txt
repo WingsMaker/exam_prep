@@ -1,0 +1,18 @@
+A financial services company is building a robust serverless data lake on Amazon S3. The data lake should be flexible and meet the following requirements:
+Support querying old and new data on Amazon S3 through Amazon Athena and Amazon Redshift Spectrum.
+Support event-driven ETL pipelines.
+Provide a quick and easy way to understand metadata.
+Which approach meets these requirements?
+
+A.
+Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Glue ETL job, and an AWS Glue Data catalog to search and discover metadata.
+
+B.
+Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Batch job, and an external Apache Hive metastore to search and discover metadata.
+
+C.
+Use an AWS Glue crawler to crawl S3 data, an Amazon CloudWatch alarm to trigger an AWS Batch job, and an AWS Glue Data Catalog to search and discover metadata.
+
+D.
+Use an AWS Glue crawler to crawl S3 data, an Amazon CloudWatch alarm to trigger an AWS Glue ETL job, and an external Apache Hive metastore to search and discover  metadata.
+

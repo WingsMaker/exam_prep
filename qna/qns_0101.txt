@@ -1,0 +1,14 @@
+Your marketing department wishes to understand how their products are being represented in the various social media services in which they have active content streams. They would like insights into the reception of a current product line so they can plan for the roll out of a new product in the line in the new future. You have been tasked with creating a service that organizes the social media content by sentiment across all languages so that your marketing department can determine how best to introduce the new product. How would you quickly and most efficiently design and build a service for your marketing team that gives insight into the social media sentiment?
+
+A.
+Use the scikit-learn python library to build a sentiment analysis service to provide insight data to the marketing team's internal application platform. Build a dashboard into the application platform using React or Angular.
+
+B.
+Use the DetectSentiment Amazon Comprehend API as a service to provide insight data to the marketing team's internal application platform. Build a dashboard into the application platform using React or Angular.
+
+C.
+Use the Amazon Lex API as a service to implement the to provide insight data to the marketing team's internal application platform. Build a dashboard into the application platform using React or Angular.
+
+D.
+Use Amazon Translate, Amazon Comprehend, Amazon Kinesis, Amazon Athena, and Amazon QuickSight to build a natural-language-processing (NLP)-powered social media dashboard
+

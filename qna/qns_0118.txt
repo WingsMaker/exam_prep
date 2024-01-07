@@ -1,0 +1,10 @@
+In AWS SageMaker, what feature allows you to distribute machine learning model training across multiple instances and is designed for large-scale distributed training?
+
+A. SageMaker Data Wrangler
+
+B. SageMaker Model Monitor
+
+C. SageMaker Multi-Model Endpoints
+
+D. SageMaker Distributed Training
+

@@ -1,0 +1,15 @@
+A video streaming company is looking to create a personalized experience for its customers on its platform. The company wants to provide recommended videos to stream based on what other similar users watched previously. 
+To this end, it is collecting its platform's clickstream data using an ETL pipeline and storing the logs and syslogs in Amazon S3. What kind of algorithm should the company use to create the simplest solution in this situation?
+
+A.
+Regression
+
+B.
+Classification
+
+C.
+Recommender system
+
+D.
+Reinforcement learning
+

@@ -1,0 +1,24 @@
+A Data Scientist needs to migrate an existing on-premises ETL process to the cloud. The current process runs at regular time intervals and uses PySpark to combine and format multiple large data sources into a single consolidated output for downstream processing. The Data Scientist has been given the following requirements to the cloud
+solution:
+Combine multiple data sources.
+Reuse existing PySpark logic.
+Run the solution on the existing schedule.
+Minimize the number of servers that will need to be managed.
+Which architecture should the Data Scientist use to build this solution?
+
+A.
+Write the raw data to Amazon S3. Schedule an AWS Lambda function to submit a Spark step to a persistent Amazon EMR cluster based on the existing schedule. 
+Use the existing PySpark logic to run the ETL job on the EMR cluster. 
+Output the results to a 'processed' location in Amazon S3 that is accessible for downstream use.
+
+B.
+Write the raw data to Amazon S3. Create an AWS Glue ETL job to perform the ETL processing against the input data. 
+Write the ETL job in PySpark to leverage the existing logic. Create a new AWS Glue trigger to trigger the ETL job based on the existing schedule. Configure the output target of the ETL job to write to a 'processed' location in Amazon S3 that is accessible for downstream use.
+
+C.
+Write the raw data to Amazon S3. Schedule an AWS Lambda function to run on the existing schedule and process the input data from Amazon S3. Write the Lambda logic in Python and implement the existing PySpark logic to perform the ETL process. Have the Lambda function output the results to a 'processed' location in Amazon S3 that is
+accessible for downstream use.
+
+D.
+Use Amazon Kinesis Data Analytics to stream the input data and perform real-time SQL queries against the stream to carry out the required transformations within the stream. Deliver the output results to a 'processed' location in Amazon S3 that is accessible for downstream use.
+

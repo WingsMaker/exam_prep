@@ -1,0 +1,18 @@
+A Data Scientist wants to tune the hyperparameters of a machine learning model to improve the model's F1score. 
+What technique can be used to achieve this desired outcome on Amazon SageMaker? (Select TWO)
+
+A.
+Grid Search
+
+B.
+Random Search
+
+C.
+Breadth First Search
+
+D.
+Bayesian optimization
+
+E.
+Depth first search
+
