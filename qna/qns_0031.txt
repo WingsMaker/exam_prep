@@ -1,0 +1,10 @@
+A company is using Amazon Polly to translate plaintext documents to speech for automated company announcements However company acronyms are being mispronounced in the current documents How should a Machine Learning Specialist address this issue for future documents?
+
+A. Convert current documents to SSML(Speech Synthesis Markup Language) with pronunciation tags.
+
+B. Create an appropriate pronunciation lexicon.
+
+C. Output speech marks to guide in pronunciation
+
+D. Use Amazon Lex to preprocess the text files for pronunciation
+

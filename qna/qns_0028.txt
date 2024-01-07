@@ -1,0 +1,11 @@
+A manufacturer of car engines collects data from cars as they are being driven The data collected includes timestamp, engine temperature, rotations per minute (RPM), and other sensor readings The company wants to predict when an engine is going to have a problem so it can notify drivers in advance to get engine maintenance The engine data is loaded into a data lake for training
+Which is the MOST suitable predictive model that can be deployed into production?
+
+A. Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem Use a recurrent neural network (RNN) to train the model to recognize when an engine might need maintenance for a certain fault.
+
+B. This data requires an unsupervised learning algorithm Use Amazon SageMaker k-means to cluster the data
+
+C. Add labels over time to indicate which engine faults occur at what time in the future to turn this into a supervised learning problem Use a convolutional neural network (CNN) to train the model to recognize when an engine might need maintenance for a certain fault.
+
+D. This data is already formulated as a time series Use Amazon SageMaker seq2seq to model the time series.
+

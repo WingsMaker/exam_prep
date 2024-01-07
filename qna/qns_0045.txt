@@ -1,0 +1,11 @@
+The Chief Editor for a product catalog wants the Research and Development team to build a machine learning system that can be used to detect whether or not individuals in a collection of images are wearing the company's retail brand The team has a set of training data
+Which machine learning algorithm should the researchers use that BEST meets their requirements?
+
+A. Latent Dirichlet Allocation (LDA)
+
+B. Recurrent neural network (RNN)
+
+C. K-means
+
+D. Convolutional neural network (CNN)
+

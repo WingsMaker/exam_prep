@@ -1,0 +1,14 @@
+When submitting Amazon SageMaker training jobs using one of the built-in algorithms, which common parameters MUST be specified? (Select THREE.)
+
+A. The training channel identifying the location of training data on an Amazon S3 bucket.
+
+B. The validation channel identifying the location of validation data on an Amazon S3 bucket.
+
+C. The IAM role that Amazon SageMaker can assume to perform tasks on behalf of the users.
+
+D. Hyperparameters in a JSON array as documented for the algorithm used.
+
+E. The Amazon EC2 instance class specifying whether training will be run using CPU or GPU.
+
+F. The output path specifying where on an Amazon S3 bucket the trained model will persist.
+

@@ -1,0 +1,10 @@
+Example Corp has an annual sale event from October to December. The company has sequential sales data from the past 15 years and wants to use Amazon ML to predict the sales for this year's upcoming event. Which method should Example Corp use to split the data into a training dataset and evaluation dataset?
+
+A. Pre-split the data before uploading to Amazon S3
+
+B. Have Amazon ML split the data randomly.
+
+C. Have Amazon ML split the data sequentially.
+
+D. Perform custom cross-validation on the data
+

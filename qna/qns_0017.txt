@@ -1,0 +1,11 @@
+A company has raw user and transaction data stored in Amazon S3 a MySQL database, and Amazon RedShift A Data Scientist needs to perform an analysis by joining the three datasets from Amazon S3, MySQL, and Amazon RedShift, and then calculating the average-of a few selected columns from the joined data
+Which AWS service should the Data Scientist use?
+
+A. Amazon Athena
+
+B. Amazon Redshift Spectrum
+
+C. AWS Glue
+
+D. Amazon QuickSight
+

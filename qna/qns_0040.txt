@@ -1,0 +1,12 @@
+A Machine Learning Specialist works for a credit card processing company and needs to predict which transactions may be fraudulent in near-real time.
+Specifically, the Specialist must train a model that returns the probability that a given transaction may be fraudulent
+How should the Specialist frame this business problem?
+
+A. Streaming classification
+
+B. Binary classification
+
+C. Multi-category classification
+
+D. Regression classification
+

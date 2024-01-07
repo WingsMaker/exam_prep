@@ -1,0 +1,15 @@
+A Machine Learning Specialist has created a deep learning neural network model that performs well on the training data but performs poorly on the test data.
+Which of the following methods should the Specialist consider using to correct this? (Select THREE.)
+
+A. Decrease regularization.
+
+B. Increase regularization.
+
+C. Increase dropout.
+
+D. Decrease dropout.
+
+E. Increase feature combinations.
+
+F. Decrease feature combinations.
+

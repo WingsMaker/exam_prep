@@ -1,0 +1,12 @@
+A Machine Learning Specialist is designing a system for improving sales for a company. The objective is to use the large amount of information the company has on users' behavior and product preferences to predict which products users would like based on the users' similarity to other users.
+What should the Specialist do to meet this objective?
+
+A. Build a content-based filtering recommendation engine with Apache Spark ML on Amazon EMR.
+
+B. Build a collaborative filtering recommendation engine with Apache Spark ML on Amazon EMR.
+
+C. Build a model-based filtering recommendation engine with Apache Spark ML on Amazon EMR.
+
+D. Build a combinative filtering recommendation engine with Apache Spark ML on Amazon EMR.
+
+

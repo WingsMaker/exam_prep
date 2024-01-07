@@ -1,0 +1,11 @@
+An interactive online dictionary wants to add a widget that displays words used in similar contexts. A Machine Learning Specialist is asked to provide word features for the downstream nearest neighbor model powering the widget.
+What should the Specialist do to meet these requirements?
+
+A. Create one-hot word encoding vectors.
+
+B. Produce a set of synonyms for every word using Amazon Mechanical Turk.
+
+C. Create word embedding factors that store edit distance with every other word.
+
+D. Download word embedding's pre-trained on a large corpus.
+

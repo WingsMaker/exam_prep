@@ -1,0 +1,11 @@
+An online reseller has a large, multi-column dataset with one column missing 30% of its data A Machine Learning Specialist believes that certain columns in the dataset could be used to reconstruct the missing data
+Which reconstruction approach should the Specialist use to preserve the integrity of the dataset?
+
+A. Listwise deletion
+
+B. Last observation carried forward
+
+C. Multiple imputation
+
+D. Mean substitution
+

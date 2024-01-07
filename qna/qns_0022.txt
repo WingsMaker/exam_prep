@@ -1,0 +1,10 @@
+An e-commerce company needs a customized training model to classify images of its shirts and pants products The company needs a proof of concept in 2 to 3 days with good accuracy Which compute choice should the Machine Learning Specialist select to train and achieve good accuracy on the model quickly?
+
+A. . m5 4xlarge (general purpose)
+
+B. r5.2xlarge (memory optimized)
+
+C. p3.2xlarge (GPU accelerated computing)
+
+D. p3 8xlarge (GPU accelerated computing)
+

@@ -1,0 +1,11 @@
+A manufacturing company asks its Machine Learning Specialist to develop a model that classifies defective parts into one of eight defect types. The company has provided roughly 100000 images per defect type for training During the initial training of the image  classification model the Specialist notices that the validation accuracy is 80%, while the training accuracy is 90% It is known that human-level performance for this type of image classification is around 90%
+What should the Specialist consider to fix this issue1?
+
+A. A longer training time
+
+B. Making the network larger
+
+C. Using a different optimizer
+
+D. Using some form of regularization
+

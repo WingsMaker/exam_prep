@@ -1,0 +1,13 @@
+A term frequency - inverse document frequency (tf - idf) matrix using both unigrams and bigrams is built from a text corpus consisting of the following two sentences:
+1. Please call the number below.
+2. Please do not call us.
+What are the dimensions of the tf - idf matrix?
+
+A) (2, 16)
+
+B) (2, 8)
+
+C) (2, 10)
+
+D) (8, 10)
+

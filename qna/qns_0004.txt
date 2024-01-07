@@ -1,0 +1,16 @@
+A data scientist is evaluating different binary classification models. A false positive result is 5 times more expensive (from a business perspective) than a false negative result.
+The models should be evaluated based on the following criteria:
+1) Must have a recall rate of at least 80%
+2) Must have a false positive rate of 10% or less
+3) Must minimize business costs
+After creating each binary classification model, the data scientist generates the corresponding confusion
+matrix.
+Which confusion matrix represents the model that satisfies the requirements?
+
+A) TN = 91, FP = 9, FN = 22, TP = 78
+
+B) TN = 99, FP = 1, FN = 21, TP = 79
+
+C) TN = 96, FP = 4, FN = 10, TP = 90
+
+D) TN = 98, FP = 2, FN = 18, TP = 82

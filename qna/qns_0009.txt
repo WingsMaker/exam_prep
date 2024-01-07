@@ -1,0 +1,14 @@
+A gaming company has launched an online game where people can start playing for free but they need to pay if they choose to use certain features The company needs to build an automated system to predict whether or not a new user will become a paid user within 1 year The company has gathered a labeled dataset from 1 million users.
+The training dataset consists of 1000 positive samples (from users who ended up paying within 1 year) and 999 negative samples (from users who did not use any paid features) Each data sample consists of 200 features including user age, device, location, and play patterns.
+Using this dataset for training, the Data Science team trained a random forest model that converged with over 99% accuracy on the training set However, the prediction results on a test dataset were not satisfactory.
+Which of the following approaches should the Data Science team take to mitigate this issue? (Select TWO.)
+
+A. Add more deep trees to the random forest to enable the model to learn more features.
+
+B. indicate a copy of the samples in the test database in the training dataset
+
+C. Generate more positive samples by duplicating the positive samples and adding a small amount of noise to the duplicated data.
+
+D. Change the cost function so that false negatives have a higher impact on the cost value than false positives
+
+E. Change the cost function so that false positives have a higher impact on the cost value than false negatives

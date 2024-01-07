@@ -1,0 +1,12 @@
+A Data Scientist is developing a machine learning model to predict future patient outcomes based on information collected about each patient and their treatment plans. The model should output a continuous value as its prediction. The data available includes labeled outcomes for a set of 4,000 patients. The study was conducted on a group of individuals over the age of 65 who have a particular disease that is known to worsen with age.
+Initial models have performed poorly. While reviewing the underlying data, the Data Scientist notices that, out of 4,000 patient observations, there are 450 where the patient age has been input as 0. The other features for these observations appear normal compared to the rest of the sample population.
+How should the Data Scientist correct this issue?
+
+A. Drop all records from the dataset where age has been set to 0.
+
+B. Replace the age field value for records with a value of 0 with the mean or median value from the dataset.
+
+C. Drop the age feature from the dataset and train the model using the rest of the features.
+
+D. Use k-means clustering to handle missing features.
+

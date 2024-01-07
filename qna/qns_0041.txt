@@ -1,0 +1,11 @@
+A Machine Learning Specialist built an image classification deep learning model. However the Specialist ran into an overfitting problem in which the training and testing accuracies were 99% and 75%r respectively.
+How should the Specialist address this issue and what is the reason behind it?
+
+A. The learning rate should be increased because the optimization process was trapped at a local minimum.
+
+B. The dropout rate at the flatten layer should be increased because the model is not generalized enough.
+
+C. The dimensionality of dense layer next to the flatten layer should be increased because the model is not complex enough.
+
+D. The epoch number should be increased because the optimization process was terminated before it reached the global minimum.
+

@@ -1,0 +1,15 @@
+This graph shows the training and validation loss against the epochs for a neural network The network being trained is as follows
+.  Two dense layers one output neuron
+.  100 neurons in each layer
+.  100 epochs
+.  Random initialization of weights
+Which technique can be used to improve model performance in terms of accuracy in the validation set?
+
+A. Early stopping
+
+B. Random initialization of weights with appropriate seed
+
+C. Increasing the number of epochs
+
+D. Adding another layer with the 100 neurons
+

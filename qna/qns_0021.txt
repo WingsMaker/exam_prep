@@ -1,0 +1,11 @@
+An employee found a video clip with audio on a company's social media feed. The language used in the video is Spanish. English is the employee's first language, and they do not understand Spanish. The employee wants to do a sentiment analysis.
+What combination of services is the MOST efficient to accomplish the task?
+
+A. Amazon Transcribe, Amazon Translate, and Amazon Comprehend
+
+B. Amazon Transcribe, Amazon Comprehend, and Amazon SageMaker seq2seq
+
+C. Amazon Transcribe, Amazon Translate, and Amazon SageMaker Neural Topic Model (NTM)
+
+D. Amazon Transcribe, Amazon Translate, and Amazon SageMaker BlazingText
+

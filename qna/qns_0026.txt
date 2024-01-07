@@ -1,0 +1,12 @@
+A bank's Machine Learning team is developing an approach for credit card fraud detection The company has a large dataset of historical data labeled as fraudulent 
+The goal is to build a model to take the information from new transactions and predict whether each transaction is fraudulent or not
+Which built-in Amazon SageMaker machine learning algorithm should be used for modeling this problem?
+
+A. Seq2seq
+
+B. XGBoost
+
+C. K-means
+
+D. Random Cut Forest (RCF)
+

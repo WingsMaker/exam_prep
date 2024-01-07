@@ -1,0 +1,11 @@
+A company is running a machine learning prediction service that generates 100 TB of predictions every day A Machine Learning Specialist must generate a visualization of the daily precision-recall curve from the predictions, and forward a read-only version to the Business team.
+Which solution requires the LEAST coding effort?
+
+A. Run a daily Amazon EMR workflow to generate precision-recall data, and save the results in Amazon S3 Give the Business team read-only access to S3
+
+B. Generate daily precision-recall data in Amazon QuickSight, and publish the results in a dashboard shared with the Business team
+
+C. Run a daily Amazon EMR workflow to generate precision-recall data, and save the results in Amazon S3 Visualize the arrays in Amazon QuickSight, and publish them in a dashboard shared with the Business team
+
+D. Generate daily precision-recall data in Amazon ES (ElasticSearch), and publish the results in a dashboard shared with the Business team.
+

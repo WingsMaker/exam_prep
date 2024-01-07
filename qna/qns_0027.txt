@@ -1,0 +1,16 @@
+IT leadership wants Jo transition a company's existing machine learning data storage environment to AWS as a temporary ad hoc solution The company currently uses a custom software process that heavily leverages SOL as a query language and exclusively stores generated csv documents for machine learning
+The ideal state for the company would be a solution that allows it to continue to use the current workforce of SQL experts The solution must also support the storage of csv and JSON files, and be able to query over semi-structured data The following are high priorities for the company:
+.  Solution simplicity
+.  Fast development time
+.  Low cost
+.  High flexibility
+What technologies meet the company? requirements?
+
+A. Amazon S3 and Amazon Athena
+
+B. Amazon Redshift and AWS Glue
+
+C. Amazon DynamoDB and DynamoDB Accelerator (DAX)
+
+D. Amazon RDS and Amazon ES
+

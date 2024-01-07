@@ -1,0 +1,11 @@
+A Machine Learning Specialist is preparing data for training on Amazon SageMaker The Specialist is transformed into a numpy .array, which appears to be negatively affecting the speed of the training
+What should the Specialist do to optimize the data for training on SageMaker?
+
+A. Use the SageMaker batch transform feature to transform the training data into a DataFrame
+
+B. Use AWS Glue to compress the data into the Apache Parquet format
+
+C. Transform the dataset into the Recordio protobuf format
+
+D. Use the SageMaker hyperparameter optimization feature to automatically optimize the data
+

@@ -1,0 +1,13 @@
+A Machine Learning Specialist is configuring automatic model tuning in Amazon SageMaker
+When using the hyperparameter optimization feature, which of the following guidelines should be followed to improve optimization?
+
+Choose the maximum number of hyperparameters supported by
+
+A. Amazon SageMaker to search the largest number of combinations possible
+
+B. Specify a very large hyperparameter range to allow Amazon SageMaker to cover every possible value.
+
+C. Use log-scaled hyperparameters to allow the hyperparameter space to be searched as quickly as possible
+
+D. Execute only one hyperparameter tuning job at a time and improve tuning through successive rounds of experiments
+

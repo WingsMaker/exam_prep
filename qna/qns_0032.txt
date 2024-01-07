@@ -1,0 +1,30 @@
+An Machine Learning Specialist discover the following statistics while experimenting on a model.
+What can the Specialist conclude from the experiments?
+
+Experiment 1 :
+Baselin Model
+Train Error = 5%
+Test Error = 16%
+
+Experiment 2 :
+The Specialist added more layers and neurons to the model
+and received the following results
+Train Error = 5.2%
+Test Error = 15.7%
+
+Experiment 3 :
+The Specialist reverted back to the original number of neurons
+from experiment 1 and implemented regularization in the neural network,
+which yield the following results
+Train Error = 4.7%
+Test Error = 9.5%
+
+A. The model In Experiment 1 had a high variance error lhat was reduced in Experiment 3 by regularization Experiment 2 shows that there is minimal bias error in Experiment 1
+
+B. The model in Experiment 1 had a high bias error that was reduced in Experiment 3 by regularization Experiment 2 shows that there is minimal variance error in Experiment 1
+
+C. The model in Experiment 1 had a high bias error and a high variance error that were reduced in Experiment 3 by regularization Experiment 2 shows thai high bias cannot be reduced by increasing layers and neurons in the model
+
+D. The model in Experiment 1 had a high random noise error that was reduced in Expenment 3 by regularization Expenment 2 shows that random noise cannot be
+reduced by increasing layers and neurons in the model
+

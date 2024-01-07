@@ -1,0 +1,11 @@
+A Machine Learning Specialist has built a model using Amazon SageMaker built-in algorithms and is not getting expected accurate results The Specialist wants to use hyperparameter optimization to increase the model's accuracy
+Which method is the MOST repeatable and requires the LEAST amount of effort to achieve this?
+
+A. Launch multiple training jobs in parallel with different hyperparameters
+
+B. Create an AWS Step Functions workflow that monitors the accuracy in Amazon CloudWatch Logs and relaunches the training job with a defined list of hyperparameters
+
+C. Create a hyperparameter tuning job and set the accuracy as an objective metric.
+
+D. Create a random walk in the parameter space to iterate through a range of values that should be used for each individual hyperparameter
+

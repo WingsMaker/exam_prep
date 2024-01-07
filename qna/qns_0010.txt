@@ -1,0 +1,11 @@
+A Machine Learning Specialist is developing recommendation engine for a photography blog Given a picture, the recommendation engine should show a picture that captures similar objects The Specialist would like to create a numerical representation feature to perform nearest-neighbor searches.
+What actions would allow the Specialist to get relevant numerical representations?
+
+A. Reduce image resolution and use reduced resolution pixel values as features
+
+B. Use Amazon Mechanical Turk to label image content and create a one-hot representation indicating the presence of specific labels
+
+C. Run images through a neural network pie-trained on ImageNet, and collect the feature vectors from the penultimate layer
+
+D. Average colors by channel to obtain three-dimensional representations of images.
+
