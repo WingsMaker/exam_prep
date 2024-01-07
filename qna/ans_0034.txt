@@ -1,0 +1,3 @@
+Answers : B,C,F
+
+Always remember in case of overfitting - reduce features, Add regularisation and increase dropouts.

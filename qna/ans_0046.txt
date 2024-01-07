@@ -1,0 +1,6 @@
+Answers : A
+
+A. YES - Amazon Kinesis Data Analytics is for real-time data insights
+B. NO - Amazon Athena has no data catalog
+C. NO - Amazon Kinesis Data Streams and Amazon Kinesis Data Analytics is not for historical data insights
+D. NO - Amazon Athena has no data catalog

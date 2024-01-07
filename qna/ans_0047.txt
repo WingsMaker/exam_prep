@@ -1,0 +1,4 @@
+Answer: B
+ 
+Many developers want to implement the famous Amazon model that was used to power the 'People who bought this also bought these items' feature on Amazon.com. This model is based on a method called Collaborative Filtering. It takes items such as movies, books, and products that were rated highly by a set of users and recommending them to other users who also gave them high ratings. This method works well in domains where explicit ratings or implicit user actions can be gathered and analyzed.
+

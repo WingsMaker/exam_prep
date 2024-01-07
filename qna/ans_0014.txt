@@ -1,0 +1,4 @@
+Answers : A
+
+Precision = TruePositives / (TruePositives + FalsePositives)
+

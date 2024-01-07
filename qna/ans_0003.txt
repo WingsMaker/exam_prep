@@ -1,0 +1,9 @@
+Answer : B
+  
+B  -  AWS Glue requires the least amount of setup and maintenance 
+since it is serverless, and it does not require management of 
+the infrastructure. Refer to this link for supporting information. 
+A, C, and D are all solutions that can solve the problem, 
+but require more steps for configuration, and
+require higher operational overhead to run and maintain.
+

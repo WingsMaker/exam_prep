@@ -1,0 +1,26 @@
+Answers : D
+  
+TP = True Positive				
+FP = False Positive				
+FN = False Negative				
+TN = True Negative				
+RR = Recall Rate = TP / (TP + FN)				
+FPR = False Positive Rate (FPR) = FP / (FP + TN)				
+Cost = 5 * FP + FN				
+(1) Must have a recall rate of at least 80%				
+(2) Must have a false positive rate of 10% or less				
+(3) Must minimize business costs
+Minimum Cost = MINIFS(I14:I18,J14:J18,"Yes",K14:K18,"Yes")				
+               A          B          C          D
+TN         91          99          96          98
+FP          9            1            4             2
+FN         22          21          10          18
+TP         78           79          90          82
+RR         0.78      0.79        0.9       0.82
+FPR      0.09       0.01        0.04     0.02
+Cost       67          26          30          28
+RR >= 0.8 ? => C,D
+FPR <= 0.1 ? => A,B,C,D
+Minimum Cost ? => D
+Options C and D have a recall greater than 80% and an FPR less than 10%, but D is the most cost effective.
+

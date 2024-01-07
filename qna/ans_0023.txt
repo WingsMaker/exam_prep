@@ -1,0 +1,10 @@
+Answers : B
+
+https://docs.aws.amazon.com/machine-learning/latest/dg/multiclass-model-insights.html
+
+The true class frequency for Romance is at horizontal total sum :
+57.92% 
+and the predicted class frequency for Adventure is at vertical total sum :
+13.12%
+
+Looks like this F1 score in the example is not correct.

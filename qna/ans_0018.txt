@@ -1,0 +1,25 @@
+Answers : D,E
+
+Example :
+params = {
+ 'objective': 'multi:softprob',
+ 'tree_method': 'gpu_hist',
+ 'num_class': 27,
+ 'seed': 0,
+ 'max_depth': 2,
+ 'colsample_bytree': 0.36524046160303747,
+ 'colsample_bylevel': 0.7008644188368828,
+ 'grow_policy': 'lossguide',
+ 'lambda': 1-08,
+ 'alpha': 0.1,
+ 'subsample': 0.9,
+ 'eta': 0.01,
+ 'eval_metric': 'merror'}
+
+xgb.train(params, dX_train, 
+          num_boost_round=100, 
+          verbose_eval=10, 
+          early_stopping_rounds=10, 
+          evals=[(dX_train, 'train') , (dX_valid, 'valid')],
+          )
+

@@ -1,0 +1,9 @@
+Answers : B
+  
+B  -  Decreasing the class probability threshold makes the model more sensitive and, therefore, marks more cases as the positive class, which is fraud in this case. This will increase the likelihood of fraud detection.
+However, it comes at the price of lowering precision. 
+Example :
+# changing threshold and predicting 
+print('prediction with higher threshold 0.9 :') 
+y_pred_new_threshold = (lr.predict_proba(X_test)[:, 1] >= 0.9).astype(int) 
+print(y_pred_new_threshold)

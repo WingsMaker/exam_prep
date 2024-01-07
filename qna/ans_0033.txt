@@ -1,0 +1,4 @@
+Correct Answer
+C. Transform the dataset into the Recordio protobuf format
+Explanation
+The Specialist should transform the dataset into the Recordio protobuf format. This format is optimized for high performance, efficient data storage and retrieval, which can improve the speed of training on SageMaker.

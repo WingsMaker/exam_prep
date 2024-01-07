@@ -1,0 +1,4 @@
+Answers : D
+
+The main difference between the binomial distribution and the normal distribution is that binomial distribution is discrete, whereas the normal distribution is continuous.
+

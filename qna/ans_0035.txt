@@ -1,0 +1,17 @@
+Answers : A
+
+
+TP = 10
+TN = 76
+FP = 10
+FN =  4
+
+Accuracy = (TP+TN)/ (TP+FP+FN+TN)
+         = (10+76) / 100
+         = 86%
+Precision = TP / (TP + FP)
+          = 10 / 20
+          = 50%
+
+FN = 4 < FP = 10
+

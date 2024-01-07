@@ -1,0 +1,12 @@
+Answer : A
+
+A  Amazon SageMaker Pipe mode streams the data directly to the container, 
+which improves the performance of training jobs. 
+In Pipe mode, your training job streams data directly from Amazon S3. 
+Streaming can provide faster start times for training jobs and better throughput.
+With Pipe mode, you also reduce the size of the Amazon EBS volumes for your training instances. 
+
+B would not apply in this scenario. 
+C is a streaming ingestion solution, but is not applicable in this scenario. 
+D transforms the data structure.
+

@@ -1,0 +1,13 @@
+Answer : A
+
+A  -  There are 2 sentences, 8 unique unigrams, and 8 unique bigrams, 
+so the result would be (2,16). 
+The phrases are "Please call the number below"
+and "Please do not call us"
+
+Each word individually (unigram) is 
+Please,call,the,number,below,do,not,us
+
+The unique bigrams are 
+Please call,call the,the number,number below,
+Please do,do not,not call,call us.
