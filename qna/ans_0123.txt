@@ -1,0 +1,4 @@
+Correct Answer
+C. Recommender system
+Explanation
+The company should use a recommender system algorithm to create a personalized experience for its customers. A recommender system analyzes clickstream data and user behavior to provide recommendations based on what other similar users watched previously. This algorithm would be the simplest solution for the company to implement in order to provide recommended videos to stream on its platform.

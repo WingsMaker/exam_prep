@@ -1,0 +1,4 @@
+Correct Answer
+D. For each feature, approximate the missing values using supervised learning based on other features.
+Explanation
+Use supervised learning to predict missing values based on the values of other features. Different supervised learning approaches might have different performances, but any properly implemented supervised learning approach should provide the same or better approximation than mean or median approximation, as proposed in responses A and C. Supervised learning applied to the imputation of missing values is an active field of research.

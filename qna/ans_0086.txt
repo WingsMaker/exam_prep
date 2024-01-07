@@ -1,0 +1,4 @@
+Correct Answer
+A. K-means clustering
+Explanation
+K-means clustering should be used to complete this work because it is a popular unsupervised learning algorithm that is used for clustering data. It is suitable for this task because the dataset consists of unlabeled data and the goal is to classify the data into different buckets. K-means clustering works by partitioning the data into k clusters based on their similarity. It iteratively assigns data points to the nearest cluster centroid and updates the centroids until convergence. This algorithm is widely used for data clustering and can help the Machine Learning Specialist in this task.

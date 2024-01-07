@@ -1,0 +1,8 @@
+Answers : A
+
+A. YES - perfect fit, multi:softmax the highest probability class is assigned
+B. NO - CNN is for imaging
+C. NO - regression forest is for continuuous variables, not for discrete classification
+D. NO - it is for detecting patterns in time series data
+
+

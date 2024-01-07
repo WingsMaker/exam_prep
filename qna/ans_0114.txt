@@ -1,0 +1,4 @@
+Correct Answer
+B. Copy the summary text fields and use them to fill in the missing full review text fields, and then run through the test set.
+Explanation
+In this case, a full review summary usually contains the most descriptive phrases of the entire review and is a valid stand-in for the missing full review text field.

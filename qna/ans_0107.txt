@@ -1,0 +1,5 @@
+Correct Answers:
+A. AWS CloudTrail
+D. Amazon CloudWatch
+Explanation
+The correct answer is AWS CloudTrail and Amazon CloudWatch. AWS CloudTrail is used to track API activity and monitor actions taken by users, including model deployments and endpoint invocations. Amazon CloudWatch is used to monitor resource utilization, such as GPU and CPU utilization on the deployed SageMaker endpoints. AWS Health, AWS Trusted Advisor, and AWS Config are not directly integrated with Amazon SageMaker for tracking this information.

@@ -1,0 +1,5 @@
+Correct Answer
+D. Binomial Distribution
+Explanation
+The likelihood of flipping a coin "heads" can be described by the Binomial Distribution. This distribution is used when there are two possible outcomes (in this case, heads or tails) and each flip is independent. The Binomial Distribution calculates the probability of a certain number of successes (in this case, heads) in a fixed number of trials (the number of times the coin is flipped).
+

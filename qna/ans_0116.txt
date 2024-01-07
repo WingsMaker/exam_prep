@@ -1,0 +1,4 @@
+Correct Answer
+B. Push the data from Microsoft SQL Server to Amazon S3 using an AWS Data Pipeline and provide the S3 location within the notebook.
+Explanation
+The Specialist should push the data from Microsoft SQL Server to Amazon S3 using an AWS Data Pipeline and provide the S3 location within the notebook. This approach allows for efficient and scalable storage of the historical training data in Amazon S3, which can then be easily accessed and used for training the model in Amazon SageMaker. It also ensures that the data is securely stored and can be easily shared and accessed by other services or users within the AWS environment.

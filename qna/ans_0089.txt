@@ -1,0 +1,4 @@
+Correct Answer
+C. Use the Amazon SageMaker Linear Learner algorithm on the single time series consisting of the full year of data with a predictor_type of regressor.
+Explanation
+The Amazon SageMaker Linear Learner algorithm is most likely to provide the best results in this scenario. The task is to forecast air quality based on historical data, which is a regression problem. The Linear Learner algorithm is designed for regression tasks and can effectively learn patterns and make predictions based on the given time series data. Using a regressor predictor_type will allow the algorithm to accurately forecast the air quality in parts per million of contaminants for the next 2 days. The other options, such as k-Nearest-Neighbors and Random Cut Forest, may not be as suitable for this specific task.

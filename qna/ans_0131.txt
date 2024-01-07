@@ -1,0 +1,5 @@
+Correct Answer
+A. Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.
+Explanation
+The most efficient way to accomplish the tasks of ingesting and analyzing the data in real-time is by using Amazon Kinesis Data Firehose to ingest the data and Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. After detecting the anomalies, the results can be streamed to Amazon S3 using Kinesis Data Firehose. This approach allows for real-time analysis and storage of the results in a scalable and efficient manner.
+

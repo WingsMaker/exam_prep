@@ -1,0 +1,8 @@
+Correct Answer
+B. One-hot encoding
+Explanation
+The technique that should be used to convert the Day-Of_Week column to binary values is one-hot encoding. Onehot
+encoding is a technique used to represent categorical variables as binary vectors. Each category is converted into
+a binary column, where a value of 1 represents the presence of that category and a value of 0 represents the
+absence. This is commonly used in machine learning algorithms to handle categorical data and allow them to be
+used in mathematical calculations.

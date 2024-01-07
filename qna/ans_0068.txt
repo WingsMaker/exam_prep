@@ -1,0 +1,4 @@
+Answers : B
+
+k = 4
+https://en.wikipedia.org/wiki/Elbow_method_(clustering)

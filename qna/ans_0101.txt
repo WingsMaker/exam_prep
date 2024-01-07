@@ -1,0 +1,5 @@
+Correct Answer
+D. Use Amazon Translate, Amazon Comprehend, Amazon Kinesis, Amazon Athena, and Amazon QuickSight to build a
+natural-language-processing (NLP)-powered social media dashboard
+Explanation 
+The best way to quickly and efficiently design and build a service that gives insight into social media sentiment for the marketing team is to use Amazon Translate, Amazon Comprehend, Amazon Kinesis, Amazon Athena, and Amazon QuickSight. These services provide a comprehensive solution for natural language processing (NLP) and data analysis. Amazon Translate can be used to translate social media content into different languages, Amazon Comprehend can be used for sentiment analysis, Amazon Kinesis can be used for real-time data streaming, Amazon Athena can be used for querying and analyzing the data, and Amazon QuickSight can be used for visualizing the insights on a dashboard. This combination of services enables the marketing team to understand the sentiment of their products across different languages and make informed decisions for the roll out of a new product.

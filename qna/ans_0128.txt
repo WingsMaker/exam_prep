@@ -1,0 +1,4 @@
+Correct Answer
+C. Assign an IAM role to the Amazon SageMaker notebook with S3 read access to the dataset. Grant permission in the KMS key policy to that role.
+Explanation
+https://docs.aws.amazon.com/kms/latest/developerguide/control-access-overview.html#managing-access

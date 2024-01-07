@@ -1,0 +1,4 @@
+Correct Answer
+A. Load a smaller subset of the data into the SageMaker notebook and train locally. Confirm that the training code is executing and the model parameters seem reasonable. Initiate a SageMaker training job using the full dataset from the S3 bucket using Pipe input mode.
+Explanation
+To avoid loading the entire large dataset onto the limited storage of the SageMaker notebook instance, the Machine Learning Specialist should load a smaller subset of the data into the notebook and train locally. This allows them to confirm that the training code is executing correctly and the model parameters are reasonable. Once this is verified, they can initiate a SageMaker training job using the full dataset from the S3 bucket using Pipe input mode. This approach allows the Specialist to use all the data for training without exceeding the storage limitations of the notebook instance.

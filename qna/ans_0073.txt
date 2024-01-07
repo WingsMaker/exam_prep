@@ -1,0 +1,12 @@
+Answers : B
+   
+The goal of classification is to determine to which class or category a data point (customer in our case) belongs to. 
+For classification problems, data scientists would use historical data with predefined target variables AKA labels (churner/non-churner)  
+-  answers that need to be predicted  
+-  to train an algorithm. 
+
+With classification, businesses can answer the following questions:
+Will this customer churn or not?
+Will a customer renew their subscription?
+Will a user downgrade a pricing plan?
+Are there any signs of unusual customer behavior?

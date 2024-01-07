@@ -1,0 +1,4 @@
+Correct Answer
+B. As variable 1 increases, variable 5 decreases
+Explanation
+The correlation coefficient of -0.95 indicates a strong negative correlation between variable 1 and variable 5. This means that as variable 1 increases, variable 5 tends to decrease. The closer the correlation coefficient is to -1, the stronger the negative correlation. Therefore, the Data Scientist can interpret that there is a strong inverse relationship between variable 1 and variable 5.

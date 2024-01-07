@@ -1,0 +1,6 @@
+Answers : B,D
+
+Athena: run SQL queries on files in S3. Big Data tool for OLAP (Online Analytical Processing). Example use case: To store gigabytes of data in S3 as files (for example parquet, but also JSON, CSV, etc.) and to run a query on it. 
+
+Kinesis Analytics: run SQL queries on a data stream. It may be a windowed query. 
+Example use case: with a stream of e-store transactions, get the transaction count or summary value over the last hour. The output can be produced every transaction or every minute, so the output is a new stream of (summary) values.

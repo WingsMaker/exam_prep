@@ -1,0 +1,4 @@
+Correct Answer
+A. Amazon SageMaker DeepAR
+Explanation
+The company should use Amazon SageMaker DeepAR algorithm to build the model. DeepAR is a time series forecasting algorithm that is specifically designed for predicting future values based on historical data. In this case, the algorithm can be trained on the consumption metrics of similar factory machines to predict when a machine part is about to stop working. The algorithm's ability to handle time series data and capture temporal dependencies makes it suitable for this task.

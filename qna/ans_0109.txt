@@ -1,0 +1,4 @@
+Correct Answer
+B. Data normalization
+Explanation
+Data normalization is the process of scaling the data to a standard range. In this case, the high magnitude of some features can cause the neural network to give more importance to those features, leading to slower convergence during backpropagation. By normalizing the data, the features will be on a similar scale, allowing the neural network to learn more effectively and converge faster. This helps to prevent any one feature from dominating the cost function and ensures better convergence during backpropagation.

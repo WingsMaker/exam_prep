@@ -1,0 +1,4 @@
+Correct Answer
+D. Vectorize the sentences. Transform them into numerical sequences with a padding. Use the sentences as the input.
+Explanation
+To prepare the data for the LSTM, the team should vectorize the sentences by transforming them into numerical sequences. Additionally, padding should be applied to ensure that all sequences have the same length. This is important because LSTMs require fixed-length input. By vectorizing and padding the sentences, the data can be effectively processed by the LSTM model for classification.

@@ -1,0 +1,2 @@
+Correct Answer
+C. Amazon SageMaker notebook instances are based on EC2 instances running within AWS service accounts.

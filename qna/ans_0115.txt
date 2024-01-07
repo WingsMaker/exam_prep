@@ -1,0 +1,5 @@
+Correct Answers:
+C. The principal component analysis (PCA) algorithm
+D. The k-means algorithm
+Explanation
+The principal component analysis (PCA) algorithm is suitable for this task as it can reduce the dimensionality of the data and identify the most important variables that contribute to the variance in the dataset. This can help in identifying patterns and relationships within the census information. The k-means algorithm can be used to cluster the data based on similarities, which can be useful in grouping provinces and cities with similar healthcare and social program needs. These algorithms together can provide valuable insights for determining healthcare and social program needs by province and city based on the census information.

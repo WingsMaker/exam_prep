@@ -1,0 +1,4 @@
+Correct Answer
+D. A rule-based solution should be used instead of ML
+Explanation
+A rule-based solution should be used instead of ML because the company already has specific criteria (previous user feedback) to identify IP addresses connected to spam and phishing websites. ML models require training data, which may not be readily available in this case. By using a rule-based solution, the company can set predefined rules based on the feedback to flag the IP addresses without the need for ML algorithms.

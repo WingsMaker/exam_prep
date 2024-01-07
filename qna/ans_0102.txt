@@ -1,0 +1,4 @@
+Correct Answer
+D. Scikit-learn term frequency-inverse document frequency (TF-IDF) vectorizers
+Explanation
+The Data Scientist believes that the poor validation accuracy may be due to a rich vocabulary and low average frequency of words in the dataset. In order to improve the accuracy, they should use Scikit-learn term frequencyinverse document frequency (TF-IDF) vectorizers. TF-IDF is a technique that assigns weights to words based on their frequency in a document and their rarity in the entire dataset. By using TF-IDF vectorizers, the Data Scientist can give more importance to the words that are both frequent in a document and rare in the dataset, which can help improve the accuracy of the sentiment analysis application.

@@ -1,0 +1,9 @@
+Correct Answer : B
+B. Instance segmentation
+Explanation
+Instance segmentation should be used in this scenario. 
+Instance segmentation not only classifies objects in an image but also provides a pixel-level mask for each individual object. This is important in the context of autonomous vehicles as it allows for accurate detection and labeling of people and various objects on the street. 
+
+Image classification would only classify the entire image, while image localization would only provide bounding boxes around objects. 
+
+Semantic segmentation would classify pixels into different categories but would not differentiate between individual objects.

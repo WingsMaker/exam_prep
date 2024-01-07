@@ -1,0 +1,5 @@
+Correct Answers: : B,D
+B. Random Search
+D. Bayesian optimization
+Explanation
+Random Search and Bayesian optimization are two techniques that can be used to tune the hyperparameters of a machine learning model on Amazon SageMaker to improve the model's F1 score. Random Search involves randomly selecting combinations of hyperparameters from a predefined search space and evaluating their performance. Bayesian optimization, on the other hand, uses a probabilistic model to find the optimal set of hyperparameters by iteratively exploring the search space based on previous evaluations. Both techniques can help identify the best hyperparameter values that maximize the F1 score.

@@ -1,0 +1,4 @@
+Correct Answer
+D. Face collection contents
+Explanation
+The source of the problem could be the face collection contents. Since the Rekognition model is failing to recognize visitors, it is possible that the faces of the visitors are not included in the face collection that the system is comparing against. The face collection should ideally contain images of both employees/contractors/consultants and visitors in order to accurately identify and differentiate between them.

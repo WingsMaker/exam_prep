@@ -1,0 +1,4 @@
+Correct Answer : B
+B. HyperparameterTuner()
+Explanation
+The Amazon SageMaker SDK uses the HyperparameterTuner() API to create and interact with the Amazon SageMaker hyperparameter tuning jobs. This API allows the data scientist to automate the tuning process for their random forest model, optimizing the hyperparameters to improve the model's performance.

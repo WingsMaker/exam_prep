@@ -1,0 +1,5 @@
+Correct Answer
+D. Ingest CSV data from Amazon Kinesis Data Streams and use Amazon Kinesis Data Firehose to convert data into Parquet.
+Explanation
+The solution that takes the least effort to implement is to ingest CSV data from Amazon Kinesis Data Streams and use Amazon Kinesis Data Firehose to convert the data into Parquet format. This solution eliminates the need for managing and configuring additional services like Apache Kafka Streams, Apache Spark, or Amazon Glue. Amazon Kinesis Data Firehose simplifies the process by automatically converting the CSV data into Parquet format and storing it on Amazon S3.
+

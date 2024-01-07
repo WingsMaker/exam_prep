@@ -1,0 +1,4 @@
+Correct Answer
+B. Kinesis Firehose
+Explanation
+Kinesis Firehose is the correct answer for this question. Kinesis Firehose is a fully managed service that automatically scales to handle the transfer of data, such as Apache web logs, syslogs, text, and videos, from various sources to Amazon S3. It requires minimum transformation, making it suitable for the given scenario where the analytics company wants to transfer their web logs, syslogs, text, and videos to Amazon S3 without extensive data manipulation.

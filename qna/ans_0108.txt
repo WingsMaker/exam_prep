@@ -1,0 +1,6 @@
+Correct Answer : B
+
+B. Write the raw data to Amazon S3. Create an AWS Glue ETL job to perform the ETL processing against the input data. Write the ETL job in PySpark to leverage the existing logic. Create a new AWS Glue trigger to trigger the ETL job based on the existing schedule. Configure the output target of the ETL job to write to a 'processed' location in Amazon S3 that is accessible for downstream use.
+Explanation
+The Data Scientist should use the architecture described in option 2. This option suggests writing the raw data to Amazon S3 and using AWS Glue ETL job to perform the ETL processing. By writing the ETL job in PySpark, the existing logic can be leveraged. A new AWS Glue trigger can be created to trigger the ETL job based on the existing schedule.
+The output target of the ETL job can be configured to write to a "processed" location in Amazon S3, which is accessible for downstream use. This architecture meets all the given requirements, including combining multiple data sources, reusing existing PySpark logic, running on the existing schedule, and minimizing the number of managed servers.

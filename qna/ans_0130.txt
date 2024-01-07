@@ -1,0 +1,12 @@
+Correct Answers:
+B. Install the SageMaker Spark library in the Spark environment.
+C. Use the appropriate estimator from the SageMaker Spark Library to train a model.
+E. Use the SageMaker Model transform method to get inferences from the model hosted in SageMaker.
+Explanation
+To integrate the Spark application with SageMaker, the Machine Learning Specialist would need to perform the following steps: 
+
+1) Install the SageMaker Spark library in the Spark environment, which allows for seamless integration between Spark and SageMaker. 
+
+2) Use the appropriate estimator from the SageMaker Spark Library to train a model, which provides a high-level API for training models on SageMaker using Spark. 
+
+3) Use the SageMaker Model transform method to get inferences from the model hosted in SageMaker, which allows for real-time inference on new data using the trained model.

@@ -1,0 +1,9 @@
+Correct Answer
+B. Use AWS Glue to catalogue the data and Amazon Athena to run queries.
+Explanation
+The correct answer is to use AWS Glue to catalogue the data and Amazon Athena to run queries. AWS Glue is a fully
+managed extract, transform, and load (ETL) service that makes it easy to prepare and load data for analytics. It can
+automatically discover and catalog data stored in Amazon S3, making it easier to query the data using SQL. Amazon
+Athena is an interactive query service that allows you to analyze data directly in Amazon S3 using standard SQL. This
+combination of AWS Glue and Amazon Athena requires the least effort as it eliminates the need for manual data
+transformation and provides a simple and efficient way to query the data.

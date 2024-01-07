@@ -1,0 +1,14 @@
+Answers : B
+
+A. NO - random weights does not allow transfer learning
+B. YES - the last layer gives the final classes, we want to have new classes
+C. NO - random weights does not allow transfer learning
+D. NO - the last layer gives the final classes, we want to have new classes
+
+In transfer learning, a pre-trained model is used as a starting point to train a new model on a different task, typically using a smaller dataset. 
+The pre-trained model contains weights that have been learned from a large amount of data on a related task, and these weights can be leveraged to train the new model more efficiently.
+
+To re-train the model with the custom data, the Specialist should initialize the model with pre-trained weights in all layers, as these weights can provide a good starting point for the new task. 
+The Specialist should then replace the last fully connected layer, which is responsible for making the final predictions, as this layer will likely need to be modified to reflect the new task. 
+By keeping the pre-trained weights in the other layers, the Specialist can take advantage of the knowledge learned from the previous task, and potentially speed up the training process.
+

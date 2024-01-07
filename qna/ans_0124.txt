@@ -1,0 +1,4 @@
+Correct Answer
+A. Regression
+Explanation
+This situation represents a regression problem. Regression is a type of machine learning problem where the goal is to predict a continuous numerical value. In this case, the real estate company wants to predict the final sale price of houses, which is a continuous variable. By using a fully connected neural network trained on previous home sales data, the company can make more accurate predictions for their customers.

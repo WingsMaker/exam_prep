@@ -1,0 +1,5 @@
+Correct Answer
+D. Linear regression
+Explanation
+Linear regression is the appropriate machine learning approach to solve the problem of predicting the number of units of a particular part that should be produced each quarter. Linear regression is used for predicting a continuous
+numerical value, which aligns with the problem of predicting the quantity of units to be produced. Logistic regression, Random Cut Forest (RCF), and Principal Component Analysis (PCA) are not suitable in this case because they are used for different types of problems such as classification, anomaly detection, and dimensionality reduction, respectively.

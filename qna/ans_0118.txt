@@ -1,0 +1,4 @@
+Correct Answer
+D. SageMaker Distributed Training
+Explanation
+SageMaker Distributed Training is a feature within Amazon SageMaker that enables large-scale distributed training of machine learning models across multiple instances. This advanced capability is particularly useful for handling large datasets and complex model training scenarios, making it an essential tool for scaling machine learning workflows in AWS.

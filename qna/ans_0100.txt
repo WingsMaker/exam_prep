@@ -1,0 +1,4 @@
+Correct Answer
+C. Oversampling using SMOTE
+Explanation
+With datasets that are not fully populated, the Synthetic Minority Over-sampling Technique (SMOTE) adds new information by adding synthetic data points to the minority class. This technique would be the most effective in this scenario.

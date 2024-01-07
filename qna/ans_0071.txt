@@ -1,0 +1,6 @@
+Answers : C
+
+A. NO - Dropout is to prevent overfitting
+B. NO - L1 regularization is to prevent overfitting
+C. YES - Softmax converts outputs to Probabilites of each classification
+D. NO - Rectified linear units (ReLU) is an activation function

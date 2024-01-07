@@ -1,0 +1,4 @@
+Correct Answer : A
+A. Use an AWS Glue crawler to crawl S3 data, an AWS Lambda function to trigger an AWS Glue ETL job, and an AWS Glue Data catalog to search and discover metadata.
+Explanation
+This approach meets the requirements because it utilizes AWS Glue, which is a fully managed extract, transform, and load (ETL) service. The AWS Glue crawler is used to automatically discover and catalog metadata about the data in the S3 data lake. An AWS Lambda function is used to trigger the AWS Glue ETL job, which allows for event-driven ETL pipelines. The AWS Glue Data Catalog is used to search and discover metadata, providing a quick and easy way to understand the data lake's metadata. This approach also aligns with the requirement of supporting querying old and new data through Amazon Athena and Amazon Redshift Spectrum.

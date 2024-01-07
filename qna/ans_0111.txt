@@ -1,0 +1,4 @@
+Correct Answer
+D. PR Curve
+Explanation
+The PR Curve is the most suitable metric to determine the model best suited for the classification problem in this scenario. Since the data is skewed towards true negative results, precision and recall are more appropriate metrics than the ROC curve. Precision measures the proportion of true positive predictions out of all positive predictions, while recall measures the proportion of true positive predictions out of all actual positive cases. The PR Curve combines both precision and recall, providing a more accurate evaluation of the model's performance in identifying true positives.

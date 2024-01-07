@@ -1,0 +1,5 @@
+Correct Answer
+A. Use a random forest by building multiple randomized decision trees and averaging their outputs to get the
+predictions of the housing prices.
+Explanation
+Using a random forest by building multiple randomized decision trees and averaging their outputs can improve the situation and provide better training results. Random forests help to reduce overfitting by introducing randomness into the model. By building multiple decision trees with different subsets of the data and features, the model can learn from different perspectives and make more accurate predictions. Averaging the outputs of these trees helps to reduce the impact of individual overfitted trees and provides a more generalized prediction for unseen data.

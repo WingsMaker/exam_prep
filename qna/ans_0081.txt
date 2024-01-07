@@ -1,0 +1,7 @@
+Answers : A
+
+A. YES - we need a catalog to create parquet 
+B. NO - no need for extra staging
+C. NO - RDS ISN'T serverless ingestion and analytics solution
+D. NO - Kinesis Data Analytics NO PARQET FORMAT
+

@@ -1,0 +1,7 @@
+Correct Answer
+B. Use Amazon S3 Standard for the processed data that is within one year of processing. After one year, use Amazon
+S3 Glazier for the processed data. Use Amazon S3 Glacier Deep Archive for all raw data.
+Explanation
+The data engineer should deploy Amazon S3 Standard for the processed data that is within one year of processing.
+After one year, they should use Amazon S3 Glacier for the processed data. Additionally, they should use Amazon S3
+Glacier Deep Archive for all raw data. This solution ensures that the processed data is highly available for at least one year, allowing data analysts and data scientists to run analytics and ML workloads on the most recent data. The use of Amazon S3 Glacier Deep Archive for raw data ensures compliance and accessibility within 24 hours when needed.

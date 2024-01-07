@@ -1,0 +1,8 @@
+Correct Answer
+C. Change the input mode to Pipe
+Explanation
+Changing the input mode to Pipe would speed up the training jobs while keeping the costs low. By using Pipe mode,
+the company can stream the data directly from Amazon S3 to the training instance without the need to download
+the entire 100 GB data before training starts. This eliminates the time-consuming download process and allows for
+faster training. Additionally, it helps in reducing storage costs as there is no need to store the data on the training
+instance.
