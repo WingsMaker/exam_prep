@@ -137,7 +137,7 @@ function display_content(ii) {
 	}
 	fn = "000" + ii.toString();
 	fn = fn.substr( fn.length - 4);
-	fn = "https://wingsmaker.github.io/Github/qna/" + prefix + fn + ".txt";
+	fn = "https://wingsmaker.github.io/exam_prep/qna/" + prefix + fn + ".txt";
 	fetch(fn).then( r => r.text() ).then( t => {
 		var result = t.replaceAll("\n","<br>");
 		var msg = "<h3>Question #" + ii.toString() + ":</h3><p>" + result + "</p>";
@@ -145,7 +145,7 @@ function display_content(ii) {
 		if( qnmode==0 ) {
 			cht = "000" + ii.toString();
 			cht = cht.substr( cht.length - 4);
-			cht = "https://wingsmaker.github.io/Github/qna/img_" + cht + ".jpg";		
+			cht = "https://wingsmaker.github.io/exam_prep/qna/img_" + cht + ".jpg";		
 			if ( arr_charts.includes(ii) ) {
 				msg = "<img src='" + cht + "' height='300'>";	
 				document.getElementById("cht").innerHTML = msg;	
