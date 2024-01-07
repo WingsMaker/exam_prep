@@ -1,0 +1,14 @@
+An insurance company is developing a new device for vehicles that uses a camera to observe drivers' behavior and alert them when they appear distracted The company created approximately 10,000 training images in a controlled environment that a Machine Learning Specialist will use to train and evaluate machine learning models
+During the model evaluation the Specialist notices that the training error rate diminishes faster as the number of epochs increases and the model is not accurately inferring on the unseen test images
+Which of the following should be used to resolve this issue? (Select TWO)
+
+A. Add vanishing gradient to the model
+
+B. Perform data augmentation on the training data
+
+C. Make the neural network architecture complex.
+
+D. Use gradient checking in the model
+
+E. Add L2 regularization to the model
+

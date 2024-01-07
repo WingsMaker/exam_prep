@@ -1,0 +1,14 @@
+A data scientist is working on optimizing a model during the training process by varying multiple parameters. The data scientist observes that, during multiple runs with identical parameters, the loss function converges to different, yet stable, values. What should the data scientist do to improve the training process?
+
+A.
+Increase the learning rate. Keep the batch size the same.
+
+B.
+Reduce the batch size. Decrease the learning rate
+
+C.
+Keep the batch size the same. Decrease the learning rate
+
+D.
+Do not change the learning rate. Increase the batch size.
+

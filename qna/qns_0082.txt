@@ -1,0 +1,11 @@
+A Machine Learning Specialist is training a model to identify the make and model of vehicles in images. The Specialist wants to use transfer learning and an existing model trained on images of general objects. The Specialist collated a large custom dataset of pictures containing different vehicle makes and models.
+What should the Specialist do to initialize the model to re-train it with the custom data?
+
+A. Initialize the model with random weights in all layers including the last fully connected layer.
+
+B. Initialize the model with pre-trained weights in all layers and replace the last fully connected layer.
+
+C. Initialize the model with random weights in all layers and replace the last fully connected layer.
+
+D. Initialize the model with pre-trained weights in all layers including the last fully connected layer.
+

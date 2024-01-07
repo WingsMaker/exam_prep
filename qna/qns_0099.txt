@@ -1,0 +1,14 @@
+A company is running an Amazon SageMaker training job that will access data stored in its Amazon S3 bucket A compliance policy requires that the data never be transmitted across the internet How should the company set up the job?
+
+A.
+Launch the notebook instances in a public subnet and access the data through the public S3 endpoint
+
+B.
+Launch the notebook instances in a private subnet and access the data through a NAT gateway
+
+C.
+Launch the notebook instances in a public subnet and access the data through a NAT gateway
+
+D.
+Launch the notebook instances in a private subnet and access the data through an S3 VPC endpoint.
+

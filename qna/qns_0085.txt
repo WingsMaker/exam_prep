@@ -1,0 +1,15 @@
+A Machine Learning Engineer wants to use Amazon SageMaker and the built-in XGBoost algorithm for model training. The training data is currently stored in CSV format, with the first 10 columns representing features and the 11th column representing the target label. What should the ML Engineer do to prepare the data for use in an Amazon SageMaker training job?
+
+A.
+The target label should be changed to the first column. The data should be split into training, validation, and test sets. Finally, the datasets should be uploaded to Amazon S3
+
+B.
+The dataset should be uploaded directly to Amazon S3. Amazon SageMaker can then be used to split the data into training, validation, and test sets.
+
+C.
+The data should be split into training, validation, and test sets. The datasets should then be uploaded to Amazon S3.
+
+D.
+The target label should be changed to the first column. The dataset should then be uploaded to Amazon S3. Finally, Amazon SageMaker can be used to split the data into training, validation, and test sets.
+
+

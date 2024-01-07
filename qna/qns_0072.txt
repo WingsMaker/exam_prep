@@ -1,0 +1,18 @@
+A company's Machine Learning Specialist needs to improve the training speed of a time-series forecasting model using TensorFlow. The training is currently implemented on a single-GPU machine and takes approximately 23 hours to complete. The training needs to be run daily.
+The model accuracy is acceptable, but the company anticipates a continuous increase in the size of the training data and a need to update the model on an hourly, rather than a daily, basis. The company also wants to minimize coding effort and infrastructure changes
+What should the Machine Learning Specialist do to the training solution to allow it to scale for future demand?
+
+A. Do not change the TensorFlow cod
+
+B. Change the machine to one with a more powerful GPU to speed up the training.
+
+C. Change the TensorFlow code to implement a Horovod distributed framework supported by Amazon SageMaker
+
+D. Parallelize the training to as many machines as needed to achieve the business goals.
+
+E. Switch to using a built-in AWS SageMaker DeepAR mode
+
+F. Parallelize the training to as many machines as needed to achieve the business goals.
+
+G. Move the training to Amazon EMR and distribute the workload to as many machines as needed to achieve the business goals.
+

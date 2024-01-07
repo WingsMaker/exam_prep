@@ -1,0 +1,11 @@
+A Machine Learning Specialist trained a regression model, but the first iteration needs optimizing. The Specialist needs to understand whether the model is more frequently overestimating or underestimating the target.
+What option can the Specialist use to determine whether it is overestimating or underestimating the target value?
+
+A. Root Mean Square Error (RMSE)
+
+B. Residual plots
+
+C. Area under the curve
+
+D. Confusion matrix
+

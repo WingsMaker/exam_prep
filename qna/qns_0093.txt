@@ -1,0 +1,15 @@
+A Data Science team is designing a dataset repository where it will store a large amount of training data commonly used in its machine learning models. As Data Scientists may create an arbitrary number of new datasets every day the solution has to scale automatically and be cost-effective. Also, it must be possible to explore the data using SQL.
+Which storage scheme is MOST adapted to this scenario?
+
+A.
+Store datasets as files in Amazon S3.
+
+B.
+Store datasets as files in an Amazon EBS volume attached to an Amazon EC2 instance.
+
+C.
+Store datasets as tables in a multi-node Amazon Redshift cluster.
+
+D.
+Store datasets as global tables in Amazon DynamoDB.
+

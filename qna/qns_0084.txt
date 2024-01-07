@@ -1,0 +1,11 @@
+A Machine Learning Specialist is assigned a TensorFlow project using Amazon SageMaker for training, and needs to continue working for an extended period with no Wi-Fi access.
+Which approach should the Specialist use to continue working?
+
+A. Install Python 3 and boto3 on their laptop and continue the code development using that environment.
+
+B. Download the TensorFlow Docker container used in Amazon SageMaker from GitHub to their local environment, and use the Amazon SageMaker Python SDK to test the code.
+
+C. Download TensorFlow from tensorflow.org to emulate the TensorFlow kernel in the SageMaker environment.
+
+D. Download the SageMaker notebook to their local environment then install Jupyter Notebooks on their laptop and continue the development in a local notebook.
+

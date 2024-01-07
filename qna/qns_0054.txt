@@ -1,0 +1,11 @@
+A Data Engineer needs to build a model using a dataset containing customer credit card information.
+How can the Data Engineer ensure the data remains encrypted and the credit card information is secure? Use a custom encryption algorithm to encrypt the data and store the data on an Amazon SageMaker instance in a VPC. Use the SageMaker DeepAR  algorithm to randomize the credit card numbers.
+
+A. Use an IAM policy to encrypt the data on the Amazon S3 bucket and Amazon Kinesis to automatically discard credit card numbers and insert fake credit card numbers.
+
+B. Use an Amazon SageMaker launch configuration to encrypt the data once it is copied to the SageMaker instance in a VP
+
+C. Use the SageMaker principal component analysis (PCA) algorithm to reduce the length of the credit card numbers.
+
+D. Use AWS KMS to encrypt the data on Amazon S3
+

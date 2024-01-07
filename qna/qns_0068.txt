@@ -1,0 +1,11 @@
+A Machine Learning Specialist prepared the following graph displaying the results of k-means for k = [1:10]
+Considering the graph, what is a reasonable selection for the optimal choice of k?
+
+A. 1
+
+B. 4
+
+C. 7
+
+D. 10
+

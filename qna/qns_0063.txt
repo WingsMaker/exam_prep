@@ -1,0 +1,12 @@
+A Machine Learning Specialist at a company sensitive to security is preparing a dataset for model training. The dataset is stored in Amazon S3 and contains Personally Identifiable Information (Pll). The dataset:
+* Must be accessible from a VPC only.
+* Must not traverse the public internet. How can these requirements be satisfied?
+
+A. Create a VPC endpoint and apply a bucket access policy that restricts access to the given VPC endpoint and the VPC.
+
+B. Create a VPC endpoint and apply a bucket access policy that allows access from the given VPC endpoint and an Amazon EC2 instance.
+
+C. Create a VPC endpoint and use Network Access Control Lists (NACLs) to allow traffic between only the given VPC endpoint and an Amazon EC2 instance.
+
+D. Create a VPC endpoint and use security groups to restrict access to the given VPC endpoint and an Amazon EC2 instance.
+

@@ -1,0 +1,11 @@
+A Machine Learning Specialist must build out a process to query a dataset on Amazon S3 using Amazon Athena. The dataset contains more than 800.000 records stored as plaintext CSV files Each record contains 200 columns and is approximately 1 5 MB in size Most queries will span 5 to 10 columns only.
+How should the Machine Learning Specialist transform the dataset to minimize query runtime?
+
+A. Convert the records to Apache Parquet format
+
+B. Convert the records to JSON format
+
+C. Convert the records to GZIP CSV format
+
+D. Convert the records to XML format
+

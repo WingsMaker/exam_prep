@@ -1,0 +1,11 @@
+A Machine Learning Specialist needs to create a data repository to hold a large amount of time-based training data for a new model. In the source system, new files are added every hour Throughout a single 24-hour period, the volume of hourly updates will change significantly. The Specialist always wants to train on the last 24 hours of the data
+Which type of data repository is the MOST cost-effective solution?
+
+A. An Amazon EBS-backed Amazon EC2 instance with hourly directories
+
+B. An Amazon RDS database with hourly table partitions
+
+C. An Amazon S3 data lake with hourly object prefixes
+
+D. An Amazon EMR cluster with hourly hive partitions on Amazon EBS volumes
+

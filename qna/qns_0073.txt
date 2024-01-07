@@ -1,0 +1,11 @@
+A Machine Learning Specialist is working with a large company to leverage machine learning within its products. The company wants to group its customers into categories based on which customers will and will not churn within the next 6 months. The company has labeled the data available to the Specialist.
+Which machine learning model type should the Specialist use to accomplish this task?
+
+A. Linear regression
+
+B. Classification
+
+C. Clustering
+
+D. Reinforcement learning
+

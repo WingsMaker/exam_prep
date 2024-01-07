@@ -1,0 +1,10 @@
+A Data Scientist wants to gain real-time insights into a data stream of GZIP files. Which solution would allow the use of SQL to query the stream with the LEAST latency?
+
+A. Amazon Kinesis Data Analytics with an AWS Lambda function to transform the data.
+
+B. AWS Glue with a custom ETL script to transform the data.
+
+C. An Amazon Kinesis Client Library to transform the data and save it to an Amazon ES cluster.
+
+D. Amazon Kinesis Data Firehose to transform the data and put it into an Amazon S3 bucket.
+

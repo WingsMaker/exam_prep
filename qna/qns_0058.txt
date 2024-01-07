@@ -1,0 +1,11 @@
+A Machine Learning Specialist is building a logistic regression model that will predict whether or not a person will order a pizza. The Specialist is trying to build the optimal model with an ideal classification threshold.
+What model evaluation technique should the Specialist use to understand how different classification thresholds will impact the model's performance?
+
+A. Receiver operating characteristic (ROC) curve
+
+B. Misclassification rate
+
+C. Root Mean Square Error (RMSE)
+
+D. L1 norm
+

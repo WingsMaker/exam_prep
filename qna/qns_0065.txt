@@ -1,0 +1,13 @@
+A Machine Learning Specialist needs to move and transform data in preparation for training Some of the data needs to be processed in near-real time and other data can be moved hourly There are existing Amazon EMR MapReduce jobs to clean and feature engineering to perform on the data
+Which of the following services can feed data to the MapReduce jobs? (Select TWO )
+
+A. AWS Database Migration Service (DMS) 
+
+B. Amazon Kinesis
+
+C. AWS Data Pipeline
+
+D. Amazon Athena
+
+E. Amazon ES
+

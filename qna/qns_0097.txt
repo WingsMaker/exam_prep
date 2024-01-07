@@ -1,0 +1,18 @@
+A Machine Learning Engineer is creating and preparing data for a linear regression model. However, while preparing the data, the Engineer notices that about 20% of the numerical data contains missing values in the same two columns. The shape of the data is 500 rows by 4 columns, including the target column. How could the Engineer
+handle the missing values in the data? (Select TWO.)
+
+A.
+Remove the rows containing the missing values
+
+B.
+Remove the columns containing the missing values
+
+C.
+Fill the missing values with zeros
+
+D.
+Impute the missing values using regression
+
+E.
+Add regularization to the model
+

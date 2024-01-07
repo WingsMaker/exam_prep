@@ -1,0 +1,14 @@
+You work in the security department of your company's IT division. Your company has decided to try to use facial recognition to improve security on their campus. You have been asked to design a system that augments your company's building access security by scanning the faces of people entering their buildings and recognizing the person as either an employee/contractor/consultant, who is in the company's database, or  visitor, who is not in their database. Across their many campus locations worldwide your company has over 750,000 employees and over 250,000 contractors and consultants. These workers are all registered in their HR database. Each of these workers has an image of their face stored in the HR database. You have decided to use Amazon Rekognition for your facial recognition solution. On occasion, the Rekognition model fails to recognize visitors to the buildings. What could be the source of the problem?
+
+A.
+Face landmarks filters set to a max sharpness
+
+B.
+Bounding box and confidence score for face comparison threshold tolerances set to max values
+
+C.
+Confidence threshold tolerance set to the default
+
+D.
+Face collection contents
+

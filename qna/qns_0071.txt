@@ -1,0 +1,12 @@
+A Machine Learning Specialist is building a convolutional neural network (CNN) that will classify 10 types of animals. The Specialist has built a series of layers in a neural network that will take an input image of an animal, pass it through a series of convolutional and pooling layers, and then finally pass it through a dense and fully connected layer with 10 nodes The Specialist would like to get an output from the neural network that is a probability distribution of how likely it is that the input image belongs to each of the 10 classes
+Which function will produce the desired output?
+
+A. Dropout
+
+B. Smooth L1 loss
+
+C. Softmax
+
+D. Rectified linear units (ReLU)
+
+

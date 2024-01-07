@@ -1,0 +1,12 @@
+A Machine Learning Specialist kicks off a hyperparameter tuning job for a tree-based ensemble model using Amazon SageMaker with Area Under the ROC Curve (AUC) as the objective metric. This workflow will eventually be deployed in a pipeline that retrains and tunes hyperparameters each night to model click-through on data that goes stale every 24 hours.
+With the goal of decreasing the amount of time it takes to train these models, and ultimately to decrease costs, the Specialist wants to reconfigure the input hyperparameter range(s).
+Which visualization will accomplish this?
+
+A. A histogram showing whether the most important input feature is Gaussian.
+
+B. A scatter plot with points colored by target variable that uses t-Distributed Stochastic Neighbor Embedding (t-SNE) to visualize the large number of input variables in an easier-to-read dimension.
+
+C. A scatter plot showing the performance of the objective metric over each training iteration.
+
+D. A scatter plot showing the correlation between maximum tree depth and the objective metric.
+

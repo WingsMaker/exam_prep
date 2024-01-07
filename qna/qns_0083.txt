@@ -1,0 +1,15 @@
+An Amazon SageMaker notebook instance is launched into Amazon VPC The SageMaker notebook references data contained in an Amazon S3 bucket in another account The bucket is encrypted using SSE-KMS The instance returns an access denied error when trying to access data in Amazon S3.
+Which of the following are required to access the bucket and avoid the access denied error? (Select THREE )
+
+A. An AWS KMS key policy that allows access to the customer master key (CMK)
+
+B. A SageMaker notebook security group that allows access to Amazon S3
+
+C. An IAM role that allows access to the specific S3 bucket
+
+D. A permissive S3 bucket policy
+
+E. An S3 bucket owner that matches the notebook owner
+
+F. A SegaMaker notebook subnet ACL that allow traffic to Amazon S3.
+

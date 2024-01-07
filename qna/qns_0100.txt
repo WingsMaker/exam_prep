@@ -1,0 +1,14 @@
+A company is interested in building a fraud detection model. Currently, the data scientist does not have a sufficient amount of information due to the low number of fraud cases. Which method is MOST likely to detect the GREATEST number of valid fraud cases?
+
+A.
+Oversampling using bootstrapping
+
+B.
+Undersampling
+
+C.
+Oversampling using SMOTE
+
+D.
+Class weight adjustment
+

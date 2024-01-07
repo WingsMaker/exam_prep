@@ -1,0 +1,11 @@
+A navigation and transportation company is using satellite images to model weather around the world in order to create optimal routes for its ships and planes. The company is using Amazon SageMaker training jobs to build and train its models. However, during training, it takes too long to download the company's 100 GB data from Amazon S3 to the training instance before the training starts. What should the company do to speed up its training jobs while keeping the costs low?
+
+A. Increase the instance size for training
+
+B. Increase the batch size in the model
+
+C. Change the input mode to Pipe
+
+D. Create an Amazon EBS volume with the data on it and attach it to the training job
+
+

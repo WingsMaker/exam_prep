@@ -1,0 +1,12 @@
+A Machine Learning Specialist is building a prediction model for a large number of features using linear models, such as linear regression and logistic regression
+During exploratory data analysis the Specialist observes that many features are highly correlated with each other This may make the model unstable
+What should be done to reduce the impact of having such a large number of features?
+
+A. Perform one-hot encoding on highly correlated features
+
+B. Use matrix multiplication on highly correlated features.
+
+C. Create a new feature space using principal component analysis (PCA)
+
+D. Apply the Pearson correlation coefficient
+

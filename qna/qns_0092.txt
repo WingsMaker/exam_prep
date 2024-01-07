@@ -1,0 +1,14 @@
+A data engineer needs to create a cost-effective data pipeline solution that ingests unstructured data from various sources and stores it for downstream analytics applications and ML. The solution should include a data store where the processed data is highly available for at least one year so that data analysts and data scientists can run analytics and ML workloads on the most recent data. For compliance reasons, the solution should include both processed and raw data. The raw data does not need to be accessed regularly, but when needed, should be accessible within 24 hours. What solution should the data engineer deploy?
+
+A.
+Use Amazon S3 Standard for all raw data. Use Amazon S3 Glacier Deep Archive for all processed data.
+
+B.
+Use Amazon S3 Standard for the processed data that is within one year of processing. After one year, use Amazon S3 Glazier for the processed data. Use Amazon S3 Glacier Deep Archive for all raw data.
+
+C.
+Use Amazon Elastic File System (Amazon EFS) for processed data is within one year of processing. After one year, use Amazon S3 Standard for the processed data. Use Amazon S3 Glacier Deep Archive for all raw data.
+
+D.
+Use Amazon S3 Standard for both the raw and processed data. after one year, use Amazon S3 Glacier Deep Archive for the raw data.
+

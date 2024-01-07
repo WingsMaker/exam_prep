@@ -1,0 +1,10 @@
+During mini-batch training of a neural network for a classification problem, a Data Scientist notices that training accuracy oscillates What is the MOST likely cause of this issue?
+
+A. The class distribution in the dataset is imbalanced
+
+B. Dataset shuffling is disabled
+
+C. The batch size is too big
+
+D. The learning rate is very high
+

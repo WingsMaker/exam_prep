@@ -1,0 +1,13 @@
+A company is observing low accuracy while training on the default built-in image classification algorithm in Amazon SageMaker. The Data Science team wants to use an Inception neural network architecture instead of a ResNet architecture.
+Which of the following will accomplish this? (Select TWO.)
+
+A. Customize the built-in image classification algorithm to use Inception and use this for model training.
+
+B. Create a support case with the SageMaker team to change the default image classification algorithm to Inception.
+
+C. Bundle a Docker container with TensorFlow Estimator loaded with an Inception network and use this for model training.
+
+D. Use custom code in Amazon SageMaker with TensorFlow Estimator to load the model with an Inception network and use this for model training.
+
+E. Download and apt-get install the inception network code into an Amazon EC2 instance and use this instance as a Jupyter notebook in Amazon SageMaker.
+

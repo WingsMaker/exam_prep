@@ -1,0 +1,15 @@
+A Machine Learning Specialist is using an Amazon SageMaker notebook instance in a private subnet of a corporate VPC. The ML Specialist has important data stored on the Amazon SageMaker notebook instance's Amazon EBS volume, and needs to take a snapshot of that EBS volume. However the ML Specialist cannot find the Amazon
+SageMaker notebook instance's EBS volume or Amazon EC2 instance within the VPC. Why is the ML Specialist not seeing the instance visible in the VPC?
+
+A.
+Amazon SageMaker notebook instances are based on the EC2 instances within the customer account but they run outside of VPCs.
+
+B.
+Amazon SageMaker notebook instances are based on the Amazon ECS service within customer accounts.
+
+C.
+Amazon SageMaker notebook instances are based on EC2 instances running within AWS service accounts.
+
+D.
+Amazon SageMaker notebook instances are based on AWS ECS instances running within AWS service accounts.
+

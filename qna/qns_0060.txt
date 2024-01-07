@@ -1,0 +1,12 @@
+Amazon Connect has recently been tolled out across a company as a contact call center The solution has been configured to store voice call recordings on Amazon S3
+The content of the voice calls are being analyzed for the incidents being discussed by the call operators Amazon Transcribe is being used to convert the audio to text, and the output is stored on Amazon S3
+Which approach will provide the information required for further analysis?
+
+A. Use Amazon Comprehend with the transcribed files to build the key topics
+
+B. Use Amazon Translate with the transcribed files to train and build a model for the key topics
+
+C. Use the AWS Deep Learning AMI with Gluon Semantic Segmentation on the transcribed files to train and build a model for the key topics
+
+D. Use the Amazon SageMaker k-Nearest-Neighbors (kNN) algorithm on the transcribed files to generate a word embeddings dictionary for the key topics
+

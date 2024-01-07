@@ -1,0 +1,17 @@
+A Data Scientist at a retail company is using Amazon SageMaker to classify social media posts that mention the company into one of two categories: Posts that require a response from the company, and posts that do not. The Data Scientist is using a training dataset of 10,000 posts, which contains the timestamp, author, and full text of each post. However, the Data Scientist is missing the target labels that are required for training. Which approach can the Data Scientist take to create valid target label data? (Select TWO.)
+
+A.
+Ask the social media handling team to review each post using Amazon SageMaker GroundTruth and provide the label
+
+B.
+Use the sentiment analysis natural language processing library to determine whether a post requires a response
+
+C.
+Use Amazon Mechanical Turk to publish Human Intelligence Tasks that ask Turk workers to label the posts
+
+D.
+Use the a priori probability distribution of the two classes. Then, use Monte-Carlo simulation to generate the labels
+
+E.
+Use K-Means to cluster posts into various groups, and pick the most frequent word in each group as its label
+

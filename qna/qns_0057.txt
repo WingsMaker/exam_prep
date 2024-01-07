@@ -1,0 +1,11 @@
+A retail company intends to use machine learning to categorize new products A labeled dataset of current products was provided to the Data Science team The dataset includes 1200 products The labeled dataset has 15 features for each product such as title dimensions, weight, and price Each product is labeled as belonging to one of six categories such as books, games, electronics, and movies.
+Which model should be used for categorizing new products using the provided dataset for training?
+
+A. An XGBoost model where the objective parameter is set to multi: softmax
+
+B. A deep convolutional neural network (CNN) with a softmax activation function for the last layer
+
+C. A regression forest where the number of trees is set equal to the number of product categories
+
+D. A DeepAR forecasting model based on a recurrent neural network (RNN)
+

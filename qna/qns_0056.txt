@@ -1,0 +1,11 @@
+A company is setting up an Amazon SageMaker environment. The corporate data security policy does not allow communication over the internet.
+How can the company enable the Amazon SageMaker service without enabling direct internet access to Amazon SageMaker notebook instances?
+
+A. Create a NAT gateway within the corporate VPC.
+
+B. Route Amazon SageMaker traffic through an on-premises network.
+
+C. Create Amazon SageMaker VPC interface endpoints within the corporate VPC.
+
+D. Create VPC peering with Amazon VPC hosting Amazon SageMaker.
+

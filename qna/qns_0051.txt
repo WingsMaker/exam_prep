@@ -1,0 +1,11 @@
+A monitoring service generates 1 TB of scale metrics record data every minute A Research team performs queries on this data using Amazon Athena The queries run slowly due to the large volume of data, and the team requires better performance
+How should the records be stored in Amazon S3 to improve query performance?
+
+A. CSV files
+
+B. Parquet files
+
+C. Compressed JSON
+
+D. RecordIO
+

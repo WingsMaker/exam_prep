@@ -1,0 +1,11 @@
+A Machine Learning Specialist is building a model to predict future employment rates based on a wide range of economic factors While exploring the data, the Specialist notices that the magnitude of the input features vary greatly The Specialist does not want variables with a larger magnitude to dominate the model
+What should the Specialist do to prepare the data for model training'?
+
+A. Apply quantile binning to group the data into categorical bins to keep any  relationships in the data by replacing the magnitude with distribution
+
+B. Apply the Cartesian product transformation to create new combinations of fields that are independent of the magnitude
+
+C. Apply normalization to ensure each field will have a mean of 0 and a variance of 1 to remove any significant magnitude
+
+D. Apply the orthogonal sparse Diagram (OSB) transformation to apply a fixed-size sliding window to generate new features of a similar magnitude.
+
