@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" type="image/x-icon" href="https://wingsmaker.github.io/Github/kh.ico">
+<title>Exam Qn Viewer</title>
+<script type="text/javascript" src="https://wingsmaker.github.io/Github/jquery.min.js"></script>
+</head>
+<body style="background-color:black;color:rgb(150, 200, 255)"> 
+<h3><a id="a-title" href="https://wingsmaker.github.io/Github/Index.html">WingsMaker</a></h3>
+<h1>Exam Questions Viewer</h1>
+<br>
+<div id="qns"></div>
+<br>
+<div id="cht"></div>
+<br>
+<input type="range" min="1" max="300" value="1" id="qrng" style="width: 100%">
+<br>
+<input id="viewqn" type="submit" value="Answers" style="height: 50px"/>
+<input id="prev" type="submit" value="Prev" style="height: 50px"/>
+<input id="next" type="submit" value="Next" style="height: 50px"/>
+<input id="voice" type="submit" value="Voice" style="height: 50px"/>
+<br>
+<label for="rate">Speed:</label>
+<input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+<label for="volume">Volume:</label>
+<input type="range" min="0.1" max="1" value="0.5" step="0.1" id="volume" />
+<br>
+<label id="langcode" for="lang">Voice:</label>
+<input type="range" min="0" max="4" value="2" step="1" id="lang" />
+</div>
+<hr>
+</body>
+
+<script>
+const synth = window.speechSynthesis;
+var arr_charts = [11,12,25,68];
+let qnmode = 0; 
+let max_qns = 133;
+let voice = new SpeechSynthesisUtterance();
+var lang_type = ["US Male", "US Female", "SG", "TW", "CN"];
+var voice_type = ["en-US", "en-US-JennyNeural", "en-SG", "zh-TW", "zh-CN"];
+var voice_opt = 2;
+voice.rate = 1;
+voice.pitch = 1; 
+voice.lang = voice_type[voice_opt];
+document.getElementById("langcode").innerText = "Voice Type : " + lang_type[voice_opt];
+document.getElementById("qrng").max = max_qns;
+document.getElementById("qrng").min = "1";
+document.getElementById("qrng").value = "1";
+display_content(1);
+
+$(document).ready(function(){
+  $("#viewqn").click(function(){
+	qnmode = 1 - qnmode;
+	if( qnmode==0 ) {
+		document.getElementById("viewqn").value = "Answers";
+	} else {
+		document.getElementById("viewqn").value = "Questions";
+	}	
+	r = document.getElementById("qrng").value;
+	ii = parseInt(r);
+	display_content(ii);
+  });
+});
+
+$(document).ready(function(){
+  $("#prev").click(function(){
+	r = document.getElementById("qrng").value;
+	i = parseInt(r);
+	if( i >  1 ) {
+		i = i - 1;
+		r = i.toString();
+	}
+	document.getElementById("qrng").value = r;
+	display_content(i);
+  });
+});
+
+$(document).ready(function(){
+  $("#next").click(function(){
+	m = parseInt(document.getElementById("qrng").max);
+	r = document.getElementById("qrng").value;
+	i = parseInt(r);
+	if( i <  m ) {
+		i = i + 1;
+		r = i.toString();
+	}
+	document.getElementById("qrng").value = r;
+	display_content(i);
+  });
+});
+
+$(document).ready(function(){
+  $("#voice").click(function(){
+	var msg = document.getElementById("qns").innerHTML;
+	msg = msg.replaceAll("</","<");
+	msg = msg.replaceAll("<h3>"," ");
+	msg = msg.replaceAll("<p>"," ");
+	msg = msg.replaceAll("<br>",".");
+	textToSpeech(msg);
+  });
+});
+
+document.getElementById("qrng").oninput = function() {
+	r = document.getElementById("qrng").value;
+	ii = parseInt(r);
+	display_content(ii);
+}
+
+document.getElementById("rate").oninput = function() {
+	r = document.getElementById("rate").value;
+	voice.rate = r;
+}
+
+document.getElementById("volume").oninput = function() {
+	r = document.getElementById("volume").value;
+	voice.volume = r;
+}
+
+document.getElementById("lang").oninput = function() {
+	r = document.getElementById("lang").value;
+	var lang = voice_type[r]
+	voice.lang = lang;
+	document.getElementById("langcode").innerText = "Voice Type : " + lang_type[r];
+}
+
+function display_content(ii) {
+	var fn,cht,prefix;
+	if( qnmode==0 ) {
+		prefix = "qns_";
+	} else {
+		prefix = "ans_";
+	}
+	fn = "000" + ii.toString();
+	fn = fn.substr( fn.length - 4);
+	fn = "https://wingsmaker.github.io/Github/qna/" + prefix + fn + ".txt";
+	fetch(fn).then( r => r.text() ).then( t => {
+		var result = t.replaceAll("\n","<br>");
+		var msg = "<h3>Question #" + ii.toString() + ":</h3><p>" + result + "</p>";
+		document.getElementById("qns").innerHTML = msg;
+		if( qnmode==0 ) {
+			cht = "000" + ii.toString();
+			cht = cht.substr( cht.length - 4);
+			cht = "https://wingsmaker.github.io/Github/qna/img_" + cht + ".jpg";		
+			if ( arr_charts.includes(ii) ) {
+				msg = "<img src='" + cht + "' height='300'>";	
+				document.getElementById("cht").innerHTML = msg;	
+			} else {
+				document.getElementById("cht").innerHTML = "";
+			}
+		} else {
+			document.getElementById("cht").innerHTML = "";
+		}
+	});
+}
+
+function textToSpeech(msg) {
+	voice.text = msg;
+	synth.speak(voice);
+}
+
+</script>
+
+</html>
