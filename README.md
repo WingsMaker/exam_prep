@@ -1,4 +1,6 @@
 # exam_prep
-Exam preparation - MCQ studies for AWS course MLS-C01
+Exam preparation App - MCQ studies for AWS course MLS-C01
 
-![image](https://github.com/WingsMaker/exam_prep/assets/32192638/051f2d66-967a-4fe0-88cf-cab6a297462a)
+Click here to launch the app
+
+https://wingsmaker.github.io/exam_prep/exam_prep.html
