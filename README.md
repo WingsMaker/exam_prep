@@ -13,8 +13,12 @@ MCQ studies for AWS course MLS-C01
 <p>This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
 You can filter by topic using the toolbar above.</p>
 
-
 <a href='https://workshops.aws/categories/AI%2FML'>AI/ML Workshops</a>
+
+<h3>Exam Preparation with AWS</h3>
+
+<a href='https://aws.amazon.com/certification/certification-prep/'>AWS Certification exam preparation</a>
+
 
 <h3>Click here to launch the app</h3>
 
