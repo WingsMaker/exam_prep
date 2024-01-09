@@ -1,10 +1,6 @@
-Correct Answers: : A,C
+Correct Answers: A,C 
 A. Ask the social media handling team to review each post using Amazon SageMaker GroundTruth and provide the
 label
 C. Use Amazon Mechanical Turk to publish Human Intelligence Tasks that ask Turk workers to label the posts
 Explanation
-The Data Scientist can ask the social media handling team to review each post using Amazon SageMaker
-GroundTruth and provide the label. This approach involves manual review and labeling of each post by the team,
-ensuring accurate target labels for training. Additionally, the Data Scientist can use Amazon Mechanical Turk to
-publish Human Intelligence Tasks that ask Turk workers to label the posts. This crowdsourcing approach allows for a
-larger pool of workers to label the posts, increasing efficiency and scalability in generating valid target label data.
+The Data Scientist can ask the social media handling team to review each post using Amazon SageMaker GroundTruth and provide the label. This approach involves manual review and labeling of each post by the team, ensuring accurate target labels for training. Additionally, the Data Scientist can use Amazon Mechanical Turk to publish Human Intelligence Tasks that ask Turk workers to label the posts. This crowdsourcing approach allows for a larger pool of workers to label the posts, increasing efficiency and scalability in generating valid target label data.

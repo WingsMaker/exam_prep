@@ -2,9 +2,4 @@ Correct Answer
 C. Launch the SageMaker notebook instance within the VPC and create an S3 VPC endpoint for the notebook to
 access the data, define a custom S3 bucket policy to only allow requests from your VPC to access the S3 bucket.
 Explanation
-The correct answer is to launch the SageMaker notebook instance within the VPC and create an S3 VPC endpoint for
-the notebook to access the data, and define a custom S3 bucket policy to only allow requests from the VPC to access
-the S3 bucket. This ensures that the data stored in Amazon S3 remains private and can only be accessed by the
-Specialist through the VPC and the designated notebook instance. The S3 VPC endpoint establishes a private
-connection between the VPC and S3, eliminating the need for internet access. The custom S3 bucket policy further
-restricts access to the bucket, ensuring the integrity of the data.
+The correct answer is to launch the SageMaker notebook instance within the VPC and create an S3 VPC endpoint for the notebook to access the data, and define a custom S3 bucket policy to only allow requests from the VPC to access the S3 bucket. This ensures that the data stored in Amazon S3 remains private and can only be accessed by the Specialist through the VPC and the designated notebook instance. The S3 VPC endpoint establishes a private connection between the VPC and S3, eliminating the need for internet access. The custom S3 bucket policy further restricts access to the bucket, ensuring the integrity of the data.

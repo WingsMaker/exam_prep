@@ -1,6 +1,4 @@
 Correct Answer
 B. Reduce the batch size. Decrease the learning rate
 Explanation
-It is most likely that the loss function is very curvy and has multiple local minima where the training is
-getting stuck. Decreasing the batch size would help the data scientist stochastically get out of the local minima
-saddles. Decreasing the learning rate would prevent overshooting the global loss function minimum
+It is most likely that the loss function is very curvy and has multiple local minima where the training is getting stuck. Decreasing the batch size would help the data scientist stochastically get out of the local minima saddles. Decreasing the learning rate would prevent overshooting the global loss function minimum

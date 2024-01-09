@@ -2,8 +2,4 @@ Correct Answers:
 C. Fill the missing values with zeros
 D. Impute the missing values using regression
 Explanation
-The Engineer can handle the missing values in two ways. Firstly, they can fill the missing values with zeros, which
-means replacing the missing values with the value of zero. Secondly, they can impute the missing values using
-regression, which involves using the other available data to predict and fill in the missing values based on a
-regression model. These two approaches help to ensure that the missing values are accounted for and do not
-negatively impact the linear regression model's performance.
+The Engineer can handle the missing values in two ways. Firstly, they can fill the missing values with zeros, which means replacing the missing values with the value of zero. Secondly, they can impute the missing values using regression, which involves using the other available data to predict and fill in the missing values based on a regression model. These two approaches help to ensure that the missing values are accounted for and do not negatively impact the linear regression model's performance.

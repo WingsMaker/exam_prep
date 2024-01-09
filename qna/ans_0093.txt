@@ -1,9 +1,4 @@
 Correct Answer
 A. .Store datasets as files in Amazon S3.
 Explanation
-Storing datasets as files in Amazon S3 is the most adapted storage scheme for this scenario because it allows for
-scalability and cost-effectiveness. With S3, the Data Science team can easily store and retrieve large amounts of
-training data without worrying about capacity limitations. Additionally, S3 supports SQL-based querying using
-services like Amazon Athena, allowing for easy exploration of the data using SQL. This solution also aligns with the
-requirement of being able to create an arbitrary number of new datasets every day, as S3 can handle the storage of
-a large number of files.
+Storing datasets as files in Amazon S3 is the most adapted storage scheme for this scenario because it allows for scalability and cost-effectiveness. With S3, the Data Science team can easily store and retrieve large amounts of training data without worrying about capacity limitations. Additionally, S3 supports SQL-based querying using services like Amazon Athena, allowing for easy exploration of the data using SQL. This solution also aligns with the requirement of being able to create an arbitrary number of new datasets every day, as S3 can handle the storage of a large number of files.

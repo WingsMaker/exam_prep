@@ -2,6 +2,4 @@ Correct Answer
 A. The target label should be changed to the first column. The data should be split into training, validation, and test sets. Finally, the datasets should be uploaded to Amazon S3
 
 Explanation
-To prepare the data for use in an Amazon SageMaker training job, the ML Engineer should first change the target
-label to the first column. Then, the data should be split into training, validation, and test sets. Finally, the datasets
-should be uploaded to Amazon S3.
+To prepare the data for use in an Amazon SageMaker training job, the ML Engineer should first change the target label to the first column. Then, the data should be split into training, validation, and test sets. Finally, the datasets should be uploaded to Amazon S3.
