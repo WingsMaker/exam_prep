@@ -32,7 +32,7 @@
 
 <script>
 const synth = window.speechSynthesis;
-var arr_charts = [11,12,25,68];
+var arr_charts = [11,12,23,25,68];
 let qnmode = 0; 
 let max_qns = 133;
 let voice = new SpeechSynthesisUtterance();
@@ -89,10 +89,11 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#voice").click(function(){
 	var msg = document.getElementById("qns").innerHTML;
+	document.getElementById("qrng")
 	msg = msg.replaceAll("</","<");
 	msg = msg.replaceAll("<h3>"," ");
 	msg = msg.replaceAll("<p>"," ");
-	msg = msg.replaceAll("<br>",".");
+	msg = msg.replaceAll("<br>","\n");
 	textToSpeech(msg);
   });
 });
