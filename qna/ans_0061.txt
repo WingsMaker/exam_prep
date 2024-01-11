@@ -1,2 +1,5 @@
-Answers : A,D
+Answers : C,D
 
+Option A is not possible because the built-in image classification algorithm cannot be customized. 
+Option B is not feasible because it is not possible to change the default image classification algorithm through a support case. 
+Option E is also not a recommended approach because it involves manually installing software on an EC2 instance rather than using the managed services provided by SageMaker.
