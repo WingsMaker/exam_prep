@@ -1,0 +1,7 @@
+A Data Scientist is developing a binary classifier to predict whether a patient has a particular disease on a series of test results. The Data Scientist has data on 400 patients randomly selected from the population. The disease is seen in 3% of the population. Which cross-validation strategy should the Data Scientist adopt?
+
+[A] A k-fold cross-validation strategy with k=5.
+[B] A stratified k-fold cross-validation strategy with k=5.
+[C] A k-fold cross-validation strategy with k=5 and 3 repeats.
+[D] An 80/20 stratified split between training and validation.
+

@@ -1,0 +1,7 @@
+A Machine Learning Specialist is assigned to a Fraud Detection team and must tune an XGBoost model, which is working appropriately for test data. However, with unknown data, it is not working as expected. The existing parameters are provided as follows. Which parameter tuning guidelines should the Specialist follow to avoid overfitting?
+
+[A] Increase the max_depth parameter value.
+[B] Lower the max_depth parameter value.
+[C] Update the objective to binary:logistic.
+[D] Lower the min_child_weight parameter value.
+

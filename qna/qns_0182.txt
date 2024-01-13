@@ -1,0 +1,7 @@
+A machine learning specialist is running an Amazon SageMaker endpoint using the built-in object detection algorithm on a P3 instance for real-time predictions in a company's production application. When evaluating the model's resource utilization, the specialist notices that the model is using only a fraction of the GPU. Which architecture changes would ensure that provisioned resources are being utilized effectively?
+
+[A] Redeploy the model as a batch transform job on an M5 instance.
+[B] Redeploy the model on an M5 instance. Attach Amazon Elastic Inference to the instance.
+[C] Redeploy the model on a P3dn instance.
+[D] Deploy the model onto an Amazon Elastic Container Service (Amazon ECS) cluster using a P3 instance.
+

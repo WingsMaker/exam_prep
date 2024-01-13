@@ -1,0 +1,10 @@
+A health care company is planning to use neural networks to classify their X-ray images into normal and abnormal classes. The labeled data is divided into a training set of 1,000 images and a test set of 200 images. The initial training of a neural network model with 50 hidden layers yielded 99% accuracy on the training set, but only 55% accuracy on the test set. What changes should the Specialist consider to solve this issue?
+(Choose three.)
+
+[A] Choose a higher number of layers.
+[B] Choose a lower number of layers.
+[C] Choose a smaller learning rate.
+[D] Enable dropout.
+[E] Include all the images from the test set in the training set.
+[F] Enable early stopping.
+

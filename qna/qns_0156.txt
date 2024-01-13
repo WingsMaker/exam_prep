@@ -1,0 +1,7 @@
+A Machine Learning Specialist wants to bring a custom algorithm to Amazon SageMaker. The Specialist implements the algorithm in a Docker container supported by Amazon SageMaker. How should the Specialist package the Docker container so that Amazon SageMaker can launch the training correctly?
+
+[A] Modify the bash_profile file in the container and add a bash command to start the training program.
+[B] Use CMD config in the Dockerfile to add the training program as a CMD of the image.
+[C] Configure the training program as an ENTRYPOINT named train.
+[D] Copy the training program to directory /opt/ml/train.
+

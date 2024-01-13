@@ -1,0 +1,7 @@
+A data scientist must build a custom recommendation model in Amazon SageMaker for an online retail company. Due to the nature of the company's products, customers buy only 4-5 products every 5-10 years. So, the company relies on a steady stream of new customers. When a new customer signs up, the company collects data on the customer's preferences. Below is a sample of the data available to the data scientist. How should the data scientist split the dataset into a training and test set for this use case?
+
+[A] Shuffle all interaction data. Split off the last 10% of the interaction data for the test set.
+[B] Identify the most recent 10% of interactions for each user. Split off these interactions for the test set.
+[C] Identify the 10% of users with the least interaction data. Split off all interaction data from these users for the test set.
+[D] Randomly select 10% of the users. Split off all interaction data from these users for the test set.
+

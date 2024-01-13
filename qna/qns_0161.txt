@@ -1,0 +1,7 @@
+A Data Scientist is training a multilayer perception (MLP) on a dataset with multiple classes. The target class of interest is unique compared to the other classes within the dataset, but it does not achieve and acceptable recall metric. The Data Scientist has already tried varying the number and size of the MLP's hidden layers, which has not significantly improved the results. A solution to improve recall must be implemented as quickly as possible. Which techniques should be used to meet these requirements?
+
+[A] Gather more data using Amazon Mechanical Turk and then retrain.
+[B] Train an anomaly detection model instead of an MLP.
+[C] Train an XGBoost model instead of an MLP.
+[D] Add class weights to the MLP's loss function and then retrain.
+

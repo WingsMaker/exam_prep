@@ -1,0 +1,7 @@
+A company uses camera images of the tops of items displayed on store shelves to determine which items were removed and which ones still remain. After several hours of data labeling, the company has a total of 1,000 hand-labeled images covering 10 distinct items. The training results were poor. Which machine learning approach fulfills the company's long-term needs?
+
+[A] Convert the images to grayscale and retrain the model.
+[B] Reduce the number of distinct items from 10 to 2, build the model, and iterate.
+[C] Attach different colored labels to each item, take the images again, and build the model.
+[D] Augment training data for each item using image variants like inversions and translations, build the model, and iterate.
+

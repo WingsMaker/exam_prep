@@ -1,0 +1,7 @@
+A Machine Learning Specialist is working for an online retailer that wants to run analytics on every customer visit, processed through a machine learning pipeline. The data needs to be ingested by Amazon Kinesis Data Streams at up to 100 transactions per second, and the JSON data blob is 100 KB in size. What is the MINIMUM number of shards in Kinesis Data Streams the Specialist should use to successfully ingest this data?
+
+[A] 1 shards.
+[B] 10 shards.
+[C] 100 shards.
+[D] 1,000 shards.
+

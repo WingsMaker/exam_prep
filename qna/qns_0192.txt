@@ -1,0 +1,10 @@
+A financial services company wants to adopt Amazon SageMaker as its default data science environment. The company's data scientists run machine learning (ML) models on confidential financial data. The company is worried about data egress and wants an ML engineer to secure the environment. Which mechanisms can the ML engineer use to control data egress from SageMaker?
+(Choose three.)
+
+[A] Connect to SageMaker by using a VPC interface endpoint powered by AWS PrivateLink.
+[B] Use SCPs to restrict access to SageMaker.
+[C] Disable root access on the SageMaker notebook instances.
+[D] Enable network isolation for training jobs and models.
+[E] Restrict notebook presigned URLs to specific IPs used by the company.
+[F] Protect data with encryption at rest and in transit. Use AWS Key Management Service (AWS KMS) to manage encryption keys.
+

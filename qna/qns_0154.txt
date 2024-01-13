@@ -1,0 +1,7 @@
+A Machine Learning Specialist is given a structured dataset on the shopping habits of a company's customer base. The dataset contains thousands of columns of data and hundreds of numerical columns for each customer. The Specialist wants to identify whether there are natural groupings for these columns across all customers and visualize the results as quickly as possible. What approach should the Specialist take to accomplish these tasks?
+
+[A] Embed the numerical features using the t-distributed stochastic neighbor embedding (t-SNE) algorithm and create a scatter plot.
+[B] Run K-means using the Euclidean distance measure for different values of k and create an elbow plot.
+[C] Embed the numerical features using the t-distributed stochastic neighbor embedding (t-SNE) algorithm and create a line graph.
+[D] Run K-means using the Euclidean distance measure for different values of k and create box plots for each numerical column within each cluster.
+

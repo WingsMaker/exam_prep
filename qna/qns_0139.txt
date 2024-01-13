@@ -1,0 +1,7 @@
+A Data Scientist received a set of insurance records, each consisting of a record ID, the final outcome among 200 categories, and the date of the final outcome. Some partial information on claim contents is also provided, but only for a few of the 200 categories. For each outcome category, there are hundreds of records distributed over the past 3 years. The Data Scientist wants to predict how many claims to expect in each category from month to month, a few months in advance. What type of machine learning model should be used?
+
+[A] Classification month-to-month using supervised learning of the 200 categories based on claim contents.
+[B] Reinforcement learning using claim IDs and timestamps where the agent will identify how many claims in each category to expect from month to month.
+[C] Forecasting using claim IDs and timestamps to identify how many claims in each category to expect from month to month.
+[D] Classification with supervised learning of the categories for which partial information on claim contents is provided, and forecasting using claim IDs and timestamps for all other categories.
+

@@ -1,0 +1,7 @@
+A large consumer goods manufacturer has the following products on sale: 34 different toothpaste variants. 48 different toothbrush variants. 43 different mouthwash variants. The entire sales history of all these products is available in Amazon S3. Currently, the company is using custom-built autoregressive integrated moving average (ARIMA) models to forecast demand for these products. The company wants to predict the demand for a new product that will soon be launched. Which solution should a Machine Learning Specialist apply?
+
+[A] Train a custom ARIMA model to forecast demand for the new product.
+[B] Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product.
+[C] Train an Amazon SageMaker K-means clustering algorithm to forecast demand for the new product.
+[D] Train a custom XGBoost model to forecast demand for the new product.
+

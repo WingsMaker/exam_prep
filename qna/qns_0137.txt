@@ -1,0 +1,7 @@
+Which characteristic applies to a catalog backup?
+
+[A] Catalog staging files deleted after a successful catalog backup.
+[B] A catalog backup can be configured to send disaster recovery information to an e-mail address.
+[C] A catalog backup must fit on a single tape.
+[D] A catalog backup shuts down the NetBackup database.
+

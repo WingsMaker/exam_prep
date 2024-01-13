@@ -1,0 +1,7 @@
+A manufacturing company has a large set of labeled historical sales data. The manufacturer would like to predict how many units of a particular part should be produced each quarter. Which machine learning approach should be used to solve this problem?
+
+[A] Logistic Regression.
+[B] Random Cut Forest (RCF).
+[C] Principal Component Analysis (PCA).
+[D] Linear Regression.
+

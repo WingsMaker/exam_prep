@@ -1,0 +1,7 @@
+A credit card company wants to build a credit scoring model to help predict whether a new credit card applicant will default on a credit card payment. The company has collected data from a large number of sources with thousands of raw attributes. Early experiments to train a classification model revealed that many attributes are highly correlated, the large number of features slows down the training speed significantly, and that there are some overfitting issues. The Data Scientist on this project would like to speed up the model training time without losing a lot of information from the original dataset. Which feature engineering technique should the Data Scientist use to meet the objectives?
+
+[A] Run self-correlation on all features and remove highly correlated features.
+[B] Normalize all numerical values to be between 0 and 1.
+[C] Use an autoencoder or Principal Component Analysis (PCA) to replace original features with new features.
+[D] Cluster raw data using K-means and use sample data from each cluster to build a new dataset.
+

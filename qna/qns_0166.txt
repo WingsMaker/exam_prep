@@ -1,0 +1,9 @@
+A Data Scientist is building a model to predict customer churn using a dataset of 100 continuous numerical features. The Marketing team has not provided any insight about which features are relevant for churn prediction. The Marketing team wants to interpret the model and see the direct impact of relevant features on the model outcome. While training a Logistic Regression model, the Data Scientist observes that there is a wide gap between the training and validation set accuracy. Which methods can the Data Scientist use to improve the model performance and satisfy the Marketing team's needs?
+(Choose two.)
+
+[A] Add L1 regularization to the classifier.
+[B] Add features to the dataset.
+[C] Perform recursive feature elimination.
+[D] Perform t-distributed stochastic neighbor embedding (t-SNE).
+[E] Perform linear discriminant analysis.
+

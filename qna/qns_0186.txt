@@ -1,0 +1,9 @@
+A financial company is trying to detect credit card fraud. The company observed that, on average, 2% of credit card transactions were fraudulent. A data scientist trained a classifier on a year's worth of credit card transactions data. The model needs to identify the fraudulent transactions (positives) from the regular ones (negatives). The company's goal is to accurately capture as many positives as possible. Which metrics should the data scientist use to optimize the model?
+(Choose two.)
+
+[A] Specificity.
+[B] False positive rate.
+[C] Accuracy.
+[D] Area under the precision-recall curve.
+[E] True positive rate.
+

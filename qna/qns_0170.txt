@@ -1,0 +1,7 @@
+A Machine Learning Specialist is required to build a supervised image-recognition model to identify a cat. The ML Specialist performs some tests and records the following results for a neural network-based image classifier. Total number of images available = 1,000 Test set images = 100 (constant test set). The ML Specialist notices that, in over 75% of the misclassified images, the cats were held upside down by their owners. Which techniques can be used by the ML Specialist to improve this specific test error?
+
+[A] Increase the training data by adding variation in rotation for training images.
+[B] Increase the number of epochs for model training.
+[C] Increase the number of layers for the neural network.
+[D] Increase the dropout rate for the second-to-last layer.
+

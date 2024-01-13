@@ -1,0 +1,7 @@
+A real estate company wants to create a machine learning model for predicting housing prices based on a historical dataset. The dataset contains 32 features. Which model will meet the business requirement?
+
+[A] Logistic Regression.
+[B] Linear Regression.
+[C] K-means.
+[D] Principal Component Analysis (PCA).
+

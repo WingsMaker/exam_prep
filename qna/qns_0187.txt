@@ -1,0 +1,7 @@
+A machine learning specialist is developing a proof of concept for government users whose primary concern is security. The specialist is using Amazon SageMaker to train a Convolutional Neural Network (CNN) model for a photo classifier application. The specialist wants to protect the data so that it cannot be accessed and transferred to a remote host by malicious code accidentally installed on the training container. Which action will provide the MOST secure protection?
+
+[A] Remove Amazon S3 access permissions from the SageMaker execution role.
+[B] Encrypt the weights of the CNN model.
+[C] Encrypt the training and validation dataset.
+[D] Enable network isolation for training jobs.
+

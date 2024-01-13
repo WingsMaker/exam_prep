@@ -1,0 +1,7 @@
+A Machine Learning Specialist is planning to create a long-running Amazon EMR cluster. The EMR cluster will have 1 master node, 10 core nodes, and 20 task nodes. To save on costs, the Specialist will use Spot Instances in the EMR cluster. Which nodes should the Specialist launch on Spot Instances?
+
+[A] Master node.
+[B] Any of the core nodes.
+[C] Any of the task nodes.
+[D] Both core and task nodes.
+
