@@ -1,0 +1,3 @@
+Answer : A
+
+Use the event tracker in Amazon Personalize to include real-time user interactions.

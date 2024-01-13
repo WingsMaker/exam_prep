@@ -1,0 +1,3 @@
+Answer : C
+
+Configure the training program as an ENTRYPOINT named train.

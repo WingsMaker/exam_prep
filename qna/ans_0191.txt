@@ -1,0 +1,3 @@
+Answer : B
+
+Identify the most recent 10% of interactions for each user. Split off these interactions for the test set.

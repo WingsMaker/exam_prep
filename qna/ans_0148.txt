@@ -1,0 +1,3 @@
+Answer : D
+
+Augment training data for each item using image variants like inversions and translations, build the model, and iterate.

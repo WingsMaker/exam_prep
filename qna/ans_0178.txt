@@ -1,0 +1,3 @@
+Answer : A
+
+Add a VPC endpoint policy to allow access to the IAM users.

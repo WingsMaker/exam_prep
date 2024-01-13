@@ -1,0 +1,3 @@
+Answer : A
+
+Increase the training data by adding variation in rotation for training images.

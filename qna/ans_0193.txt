@@ -1,0 +1,3 @@
+Answer : C
+
+AWS Glue for data discovery, enrichment, and transformation. Amazon Athena for querying and analyzing the results in Amazon S3 using standard SQL. Amazon QuickSight for reporting and getting insights.

@@ -1,0 +1,3 @@
+Answer : A
+
+Add L1 regularization to the classifier.

@@ -1,0 +1,3 @@
+Answer : C
+
+Extract text from receipt images by using Amazon Textract. Use Amazon Comprehend for entity detection, and use Amazon Comprehend custom entity recognition for custom entity detection.

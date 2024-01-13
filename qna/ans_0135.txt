@@ -1,0 +1,3 @@
+Answer : D
+
+Insert an Amazon Kinesis Data Analytics stream downstream of the Kinesis Data Firehose stream that transforms raw record attributes into simple transformed values using SQL.

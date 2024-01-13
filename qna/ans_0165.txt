@@ -1,0 +1,3 @@
+Answer : D
+
+Initialize the words by word2vec embeddings pretrained on a large collection of news articles related to the energy sector.

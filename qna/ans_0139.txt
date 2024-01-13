@@ -1,0 +1,3 @@
+Answer : C
+
+Forecasting using claim IDs and timestamps to identify how many claims in each category to expect from month to month.

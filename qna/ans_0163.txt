@@ -1,0 +1,3 @@
+Answer : B
+
+Use an Amazon S3-backed data lake to store the raw images, and set up the permissions using bucket policies.

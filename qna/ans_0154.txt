@@ -1,0 +1,3 @@
+Answer : A
+
+Embed the numerical features using the t-distributed stochastic neighbor embedding (t-SNE) algorithm and create a scatter plot.

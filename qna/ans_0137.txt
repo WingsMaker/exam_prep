@@ -1,0 +1,3 @@
+Answer : B
+
+A catalog backup can be configured to send disaster recovery information to an e-mail address.

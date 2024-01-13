@@ -1,0 +1,3 @@
+Answer : A
+
+Use Amazon Rekognition, Amazon Comprehend, and Amazon Transcribe to tag data into distinct categories/classes.

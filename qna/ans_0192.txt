@@ -1,0 +1,3 @@
+Answer : A
+
+Connect to SageMaker by using a VPC interface endpoint powered by AWS PrivateLink.

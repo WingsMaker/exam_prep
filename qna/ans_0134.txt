@@ -1,0 +1,3 @@
+Answer : C
+
+Collaborative filtering based on user interactions and correlations to identify patterns in the customer database.

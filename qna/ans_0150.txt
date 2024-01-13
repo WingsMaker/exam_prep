@@ -1,0 +1,3 @@
+Answer : A
+
+Linear Regression is inappropriate. The residuals do not have constant variance.

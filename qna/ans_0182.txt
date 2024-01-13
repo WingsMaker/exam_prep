@@ -1,0 +1,3 @@
+Answer : B
+
+Redeploy the model on an M5 instance. Attach Amazon Elastic Inference to the instance.

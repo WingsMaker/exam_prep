@@ -1,0 +1,3 @@
+Answer : A
+
+Use ETL jobs in AWS Glue to separate the dataset into a target time series dataset and an item metadata dataset. Upload both datasets as .csv files to Amazon S3.

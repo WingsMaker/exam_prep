@@ -1,0 +1,3 @@
+Answer : C
+
+Increase the number of shards for the data stream.

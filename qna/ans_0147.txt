@@ -1,0 +1,3 @@
+Answer : B
+
+Add more data to the training set and retrain the model using transfer learning to reduce the bias.

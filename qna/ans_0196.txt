@@ -1,0 +1,3 @@
+Answer : C
+
+Stop and then restart the SageMaker notebook instance.

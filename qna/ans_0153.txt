@@ -1,0 +1,3 @@
+Answer : D
+
+Run a correlation check of all features against the target variable. Remove features with low target variable correlation scores.

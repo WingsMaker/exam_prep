@@ -1,0 +1,3 @@
+Answer : B
+
+Lower the max_depth parameter value.

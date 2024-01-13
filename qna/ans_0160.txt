@@ -1,0 +1,3 @@
+Answer : C
+
+Use an autoencoder or Principal Component Analysis (PCA) to replace original features with new features.

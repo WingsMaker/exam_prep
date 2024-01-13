@@ -1,0 +1,3 @@
+Answer : D
+
+A full Bayesian network, since some of the features are statistically dependent.

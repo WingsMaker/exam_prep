@@ -1,0 +1,3 @@
+Answer : B
+
+Split the dataset into training, validation, and test sets. Then rescale the training set and apply the same scaling to the validation and test sets.

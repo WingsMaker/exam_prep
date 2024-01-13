@@ -1,0 +1,3 @@
+Answer : B
+
+Deploy the model on AWS IoT Greengrass in each factory. Run sensor data through this model to infer which machines need maintenance.

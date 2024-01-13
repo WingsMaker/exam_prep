@@ -1,0 +1,3 @@
+Answer : D
+
+Collect the streaming data using Amazon Kinesis Data Firehose. Map the delivery stream as an input source for Amazon Kinesis Data Analytics. Write a SQL query to run in real time against the streaming data with the Amazon RandomCut Forest (RCF) SQL extension to calculate anomaly scores for each record using a sliding window.

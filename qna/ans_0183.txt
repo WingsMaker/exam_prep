@@ -1,0 +1,3 @@
+Answer : D
+
+Create an Amazon SageMaker lifecycle configuration with package installation commands and assign the lifecycle configuration to the notebook instance.

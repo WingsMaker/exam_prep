@@ -1,0 +1,3 @@
+Answer : C
+
+Create a private workforce and manifest file. Create a labeling job by using the built-in bounding box task type in Amazon SageMaker Ground Truth. Write the labeling instructions.

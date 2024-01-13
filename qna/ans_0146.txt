@@ -1,0 +1,3 @@
+Answer : A
+
+Implement the solution using AWS Deep Learning Containers and run the container as a job using AWS Batch on a GPU-compatible Spot Instance.

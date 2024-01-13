@@ -1,0 +1,3 @@
+Answer : D
+
+Add class weights to the MLP's loss function and then retrain.

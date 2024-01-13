@@ -1,0 +1,3 @@
+Answer : C
+
+Configure Amazon Textract to route low-confidence predictions to Amazon Augmented AI (Amazon A2I). Perform a manual review on those words before performing a business validation.

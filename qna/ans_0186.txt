@@ -1,0 +1,3 @@
+Answer : D
+
+Area under the precision-recall curve.

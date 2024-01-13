@@ -1,0 +1,3 @@
+Answer : A
+
+Build the Docker image with the inference code. Tag the Docker image with the registry hostname and upload it to Amazon ECR.

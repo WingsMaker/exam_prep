@@ -1,0 +1,3 @@
+Answer : D
+
+Enable network isolation for training jobs.

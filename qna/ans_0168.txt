@@ -1,0 +1,3 @@
+Answer : B
+
+Train an Amazon SageMaker DeepAR algorithm to forecast demand for the new product.

@@ -1,0 +1,3 @@
+Answer : B
+
+It could create a singular matrix during optimization, which fails to define a unique solution.
