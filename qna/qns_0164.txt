@@ -1,9 +1,16 @@
-A Machine Learning team runs its own training algorithm on Amazon SageMaker. The training algorithm requires external assets. The team needs to submit both its own algorithm code and algorithm-specific parameters to Amazon SageMaker. What combination of services should the team use to build a custom algorithm in Amazon SageMaker?
+A Machine Learning team runs its own training algorithm on Amazon SageMaker. 
+The training algorithm requires external assets. 
+The team needs to submit both its own algorithm code and algorithm-specific parameters to Amazon SageMaker. 
+What combination of services should the team use to build a custom algorithm in Amazon SageMaker?
 (Choose two.)
 
-[A] AWS Secrets Manager.
-[B] AWS CodeStar.
-[C] Amazon ECR.
-[D] Amazon ECS.
-[E] Amazon S3.
+A. AWS Secrets Manager.
+
+B. AWS CodeStar.
+
+C. Amazon ECR.
+
+D. Amazon ECS.
+
+E. Amazon S3.
 

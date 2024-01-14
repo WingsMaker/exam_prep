@@ -1,7 +1,11 @@
-A Machine Learning Specialist previously trained a Logistic Regression model using scikit-learn on a local machine, and the Specialist now wants to deploy it to production for inference only. What steps should be taken to ensure Amazon SageMaker can host a model that was trained locally?
+A Machine Learning Specialist previously trained a Logistic Regression model using scikit-learn on a local machine, and the Specialist now wants to deploy it to production for inference only. 
+What steps should be taken to ensure Amazon SageMaker can host a model that was trained locally?
 
-[A] Build the Docker image with the inference code. Tag the Docker image with the registry hostname and upload it to Amazon ECR.
-[B] Serialize the trained model so the format is compressed for deployment. Tag the Docker image with the registry hostname and upload it to Amazon S3.
-[C] Serialize the trained model so the format is compressed for deployment. Build the image and upload it to Docker Hub.
-[D] Build the Docker image with the inference code. Configure Docker Hub and upload the image to Amazon ECR.
+A. Build the Docker image with the inference code. Tag the Docker image with the registry hostname and upload it to Amazon ECR.
+
+B. Serialize the trained model so the format is compressed for deployment. Tag the Docker image with the registry hostname and upload it to Amazon S3.
+
+C. Serialize the trained model so the format is compressed for deployment. Build the image and upload it to Docker Hub.
+
+D. Build the Docker image with the inference code. Configure Docker Hub and upload the image to Amazon ECR.
 

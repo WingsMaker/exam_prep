@@ -1,7 +1,13 @@
-A Machine Learning Specialist is working with a large cybersecurity company that manages security events in real time for companies around the world. The cybersecurity company wants to design a solution that will allow it to use machine learning to score malicious events as anomalies on the data as it is being ingested. The company also wants be able to save the results in its data lake for later processing and analysis. What is the MOST efficient way to accomplish these tasks?
+A Machine Learning Specialist is working with a large cybersecurity company that manages security events in real time for companies around the world. 
+The cybersecurity company wants to design a solution that will allow it to use machine learning to score malicious events as anomalies on the data as it is being ingested. 
+The company also wants be able to save the results in its data lake for later processing and analysis. 
+What is the MOST efficient way to accomplish these tasks?
 
-[A] Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.
-[B] Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with K-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR with a replication factor of three as the data lake.
-[C] Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a K-means model using TensorFlow on the data in Amazon S3.
-[D] Ingest the data and store it in Amazon S3. Have an AWS Glue job that is triggered on demand transform the new data. Then use the built-in Random Cut Forest (RCF) model within Amazon SageMaker to detect anomalies in the data.
+A. Ingest the data using Amazon Kinesis Data Firehose, and use Amazon Kinesis Data Analytics Random Cut Forest (RCF) for anomaly detection. Then use Kinesis Data Firehose to stream the results to Amazon S3.
+
+B. Ingest the data into Apache Spark Streaming using Amazon EMR, and use Spark MLlib with K-means to perform anomaly detection. Then store the results in an Apache Hadoop Distributed File System (HDFS) using Amazon EMR with a replication factor of three as the data lake.
+
+C. Ingest the data and store it in Amazon S3. Use AWS Batch along with the AWS Deep Learning AMIs to train a K-means model using TensorFlow on the data in Amazon S3.
+
+D. Ingest the data and store it in Amazon S3. Have an AWS Glue job that is triggered on demand transform the new data. Then use the built-in Random Cut Forest (RCF) model within Amazon SageMaker to detect anomalies in the data.
 

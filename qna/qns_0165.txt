@@ -1,7 +1,13 @@
-A company uses a long short-term memory (LSTM) model to evaluate the risk factors of a particular energy sector. The model reviews multi-page text documents to analyze each sentence of the text and categorize it as either a potential risk or no risk. The model is not performing well, even though the Data Scientist has experimented with many different network structures and tuned the corresponding hyperparameters. Which approach will provide the MAXIMUM performance boost?
+A company uses a long short-term memory (LSTM) model to evaluate the risk factors of a particular energy sector. 
+The model reviews multi-page text documents to analyze each sentence of the text and categorize it as either a potential risk or no risk. 
+The model is not performing well, even though the Data Scientist has experimented with many different network structures and tuned the corresponding hyperparameters. 
+Which approach will provide the MAXIMUM performance boost?
 
-[A] Initialize the words by term frequency-inverse document frequency (TF-IDF) vectors pretrained on a large collection of news articles related to the energy sector.
-[B] Use gated recurrent units (GRUs) instead of LSTM and run the training process until the validation loss stops decreasing.
-[C] Reduce the learning rate and run the training process until the training loss stops decreasing.
-[D] Initialize the words by word2vec embeddings pretrained on a large collection of news articles related to the energy sector.
+A. Initialize the words by term frequency-inverse document frequency (TF-IDF) vectors pretrained on a large collection of news articles related to the energy sector.
+
+B. Use gated recurrent units (GRUs) instead of LSTM and run the training process until the validation loss stops decreasing.
+
+C. Reduce the learning rate and run the training process until the training loss stops decreasing.
+
+D. Initialize the words by word2vec embeddings pretrained on a large collection of news articles related to the energy sector.
 

@@ -1,7 +1,13 @@
-A trucking company is collecting live image data from its fleet of trucks across the globe. The data is growing rapidly and approximately 100 GB of new data is generated every day. The company wants to explore machine learning uses cases while ensuring the data is only accessible to specific IAM users. Which storage option provides the most processing flexibility and will allow access control with IAM?
+A trucking company is collecting live image data from its fleet of trucks across the globe. 
+The data is growing rapidly and approximately 100 GB of new data is generated every day. 
+The company wants to explore machine learning uses cases while ensuring the data is only accessible to specific IAM users. 
+Which storage option provides the most processing flexibility and will allow access control with IAM?
 
-[A] Use a database, such as Amazon DynamoDB, to store the images, and set the IAM policies to restrict access to only the desired IAM users.
-[B] Use an Amazon S3-backed data lake to store the raw images, and set up the permissions using bucket policies.
-[C] Setup up Amazon EMR with Hadoop Distributed File System (HDFS) to store the files, and restrict access to the EMR instances using IAM policies.
-[D] Configure Amazon EFS with IAM policies to make the data available to Amazon EC2 instances owned by the IAM users.
+A. Use a database, such as Amazon DynamoDB, to store the images, and set the IAM policies to restrict access to only the desired IAM users.
+
+B. Use an Amazon S3-backed data lake to store the raw images, and set up the permissions using bucket policies.
+
+C. Setup up Amazon EMR with Hadoop Distributed File System (HDFS) to store the files, and restrict access to the EMR instances using IAM policies.
+
+D. Configure Amazon EFS with IAM policies to make the data available to Amazon EC2 instances owned by the IAM users.
 
