@@ -1,7 +1,15 @@
-A machine learning specialist works for a fruit processing company and needs to build a system that categorizes apples into three types. The specialist has collected a dataset that contains 150 images for each type of apple and applied transfer learning on a neural network that was pretrained on ImageNet with this dataset. The company requires at least 85% accuracy to make use of the model. After an exhaustive grid search, the optimal hyperparameters produced the following: 68% accuracy on the training set. 67% accuracy on the validation set. What can the machine learning specialist do to improve the system's accuracy?
+A machine learning specialist works for a fruit processing company and needs to build a system that categorizes apples into three types. 
+The specialist has collected a dataset that contains 150 images for each type of apple and applied transfer learning on a neural network that was pretrained on ImageNet with this dataset. 
+The company requires at least 85% accuracy to make use of the model. 
+After an exhaustive grid search, the optimal hyperparameters produced the following: 68% accuracy on the training set. 
+67% accuracy on the validation set. 
+What can the machine learning specialist do to improve the system's accuracy?
 
-[A] Upload the model to an Amazon SageMaker notebook instance and use the Amazon SageMaker HPO feature to optimize the model's hyperparameters.
-[B] Add more data to the training set and retrain the model using transfer learning to reduce the bias.
-[C] Use a neural network model with more layers that are pretrained on ImageNet and apply transfer learning to increase the variance.
-[D] Train a new model using the current neural network architecture.
+A. Upload the model to an Amazon SageMaker notebook instance and use the Amazon SageMaker HPO feature to optimize the model's hyperparameters.
+
+B. Add more data to the training set and retrain the model using transfer learning to reduce the bias.
+
+C. Use a neural network model with more layers that are pretrained on ImageNet and apply transfer learning to increase the variance.
+
+D. Train a new model using the current neural network architecture.
 

@@ -1,7 +1,12 @@
-A Machine Learning Specialist is deciding between building a naive Bayesian model or a full Bayesian network for a classification problem. The Specialist computes the Pearson correlation coefficients between each feature and finds that their absolute values range between 0.1 to 0.95. Which model describes the underlying data in this situation?
+A Machine Learning Specialist is deciding between building a naive Bayesian model or a full Bayesian network for a classification problem. 
+The Specialist computes the Pearson correlation coefficients between each feature and finds that their absolute values range between 0.1 to 0.95. 
+Which model describes the underlying data in this situation?
 
-[A] A naive Bayesian model, since the features are all conditionally independent.
-[B] A full Bayesian network, since the features are all conditionally independent.
-[C] A naive Bayesian model, since some of the features are statistically dependent.
-[D] A full Bayesian network, since some of the features are statistically dependent.
+A. A naive Bayesian model, since the features are all conditionally independent.
+
+B. A full Bayesian network, since the features are all conditionally independent.
+
+C. A naive Bayesian model, since some of the features are statistically dependent.
+
+D. A full Bayesian network, since some of the features are statistically dependent.
 

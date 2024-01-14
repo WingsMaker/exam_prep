@@ -1,7 +1,13 @@
-A Data Scientist is building a Linear Regression model and will use resulting p-values to evaluate the statistical significance of each coefficient. Upon inspection of the dataset, the Data Scientist discovers that most of the features are normally distributed. The plot of one feature in the dataset is shown in the graphic. What transformation should the Data Scientist apply to satisfy the statistical assumptions of the Linear Regression model?
+A Data Scientist is building a Linear Regression model and will use resulting p-values to evaluate the statistical significance of each coefficient. 
+Upon inspection of the dataset, the Data Scientist discovers that most of the features are normally distributed. 
+The plot of one feature in the dataset is shown in the graphic. 
+What transformation should the Data Scientist apply to satisfy the statistical assumptions of the Linear Regression model?
 
-[A] Exponential transformation.
-[B] Logarithmic transformation.
-[C] Polynomial transformation.
-[D] Sinusoidal transformation.
+A. Exponential transformation.
+
+B. Logarithmic transformation.
+
+C. Polynomial transformation.
+
+D. Sinusoidal transformation.
 
