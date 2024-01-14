@@ -1,3 +1,4 @@
-Answer : B
+Answers : B,D
 
 Numerical value binning.
+Logarithmic transformation.

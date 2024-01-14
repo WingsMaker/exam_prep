@@ -1,3 +1,4 @@
-Answer : A
+Answers : A,D
 
 Connect to SageMaker by using a VPC interface endpoint powered by AWS PrivateLink.
+Enable network isolation for training jobs and models.

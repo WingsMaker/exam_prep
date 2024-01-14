@@ -1,3 +1,5 @@
-Answer : B
+Answers : B,D,F
 
 Choose a lower number of layers.
+Enable dropout.
+Enable early stopping.

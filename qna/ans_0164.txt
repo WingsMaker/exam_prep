@@ -1,3 +1,4 @@
-Answer : C
+Answers : C,E
 
 Amazon ECR.
+Amazon S3.

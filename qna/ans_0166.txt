@@ -1,3 +1,4 @@
-Answer : A
+Answers : A,E
 
 Add L1 regularization to the classifier.
+Perform linear discriminant analysis.

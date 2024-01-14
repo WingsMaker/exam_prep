@@ -1,3 +1,4 @@
-Answer : A
+Answers : A,C
 
 Add a VPC endpoint policy to allow access to the IAM users.
+Modify the security group on the endpoint network interface to restrict access to the instances.

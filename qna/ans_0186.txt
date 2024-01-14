@@ -1,3 +1,4 @@
-Answer : D
+Answers : D,E
 
 Area under the precision-recall curve.
+True positive rate.
