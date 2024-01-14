@@ -1,4 +1,14 @@
-Answers : A,E
+The answers : A,C.
 
-Add L1 regularization to the classifier.
-Perform linear discriminant analysis.
+From the questions:
+1. The Marketing team wants to interpret the model and see the direct impact of relevant features on the model outcome =>  The original features who impact the target.
+
+2. There is a wide gap between the training and validation set accuracy => Model overfitting
+
+To resolve the two problem:
+A. (Correct) Regularization could prevent overfitting
+B. (Wrong) Wrong. More features, Overfitting will be worse.
+C. (Correct) Chose the best feature without modifying features, eliminate the least important features(dimensionality reduction)
+D. (Wrong)  Change the features space when non-linearity exist in features co-variance
+E. (Wrong) Linear Discriminant Analysis could help reduce dimensionality but transform features also, you could not recognise transformed features.
+
