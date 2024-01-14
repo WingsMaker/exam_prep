@@ -1,33 +1,14 @@
-A machine learning (ML) specialist is using Amazon SageMaker hyperparameter optimization (HPO) to improve a model's accuracy. The learning rate parameter is specified in the following HPO configuration:
-{
- "Name" : "learning_rate",
- "MaxValue": "0.0001",
- "MinValue": "0.1"
-}
+A machine learning (ML) specialist has prepared and used a custom container image with Amazon SageMaker to train an image classification model. The ML specialist is performing hyperparameter optimization (HPO) with this custom container image to produce a higher quality image classifier.
 
-During the results analysis, the ML specialist determines that most of the training jobs had a learning rate between 0.01 and 0.1. The best result had a learning rate of less than 0.01. 
-Training jobs need to run regularly over a changing dataset. The ML specialist needs to find a tuning mechanism that uses different learning rates more evenly from the provided range between MinValue and MaxValue.
-Which solution provides the MOST accurate result?
+The ML specialist needs to determine whether HPO with the SageMaker built-in image classification algorithm will produce a better model than the model produced by HPO with the custom container image. All ML experiments and HPO jobs must be invoked from scripts inside SageMaker Studio notebooks.
 
-A. Modify the HPO configuration as follows:  Select the most accurate hyperparameter configuration form this HPO job.
-{
- "Name" : "learning_rate",
- "MaxValue": "0.0001",
- "MinValue": "0.1",
- "ScalingType": "ReverseLogarithmic"
-}
+How can the ML specialist meet these requirements in the LEAST amount of time?
 
-B. Run three different HPO jobs that use different learning rates form the following intervals for MinValue and MaxValue while using the same number of training jobs for each HPO job:
-=> [0.01, 0.1] => [0.001, 0.01] => [0.0001, 0.001] 
-Select the most accurate hyperparameter configuration form these three HPO jobs.
+A. Prepare a custom HPO script that runs multiple training jobs in SageMaker Studio in local mode to tune the model of the custom container image. Use the automatic model tuning capability of SageMaker with early stopping enabled to tune the model of the built-in image classification algorithm. Select the model with the best objective metric value.
 
-C. Modify the HPO configuration as follows:  
-Select the most accurate hyperparameter configuration form this training job.
+B. Use SageMaker Autopilot to tune the model of the custom container image. Use the automatic model tuning capability of SageMaker with early stopping enabled to tune the model of the built-in image classification algorithm. Compare the objective metric values of the resulting models of the SageMaker AutopilotAutoML job and the automatic model tuning job. Select the model with the best objective metric value.
 
-D. Run three different HPO jobs that use different learning rates form the following intervals for MinValue and MaxValue. 
-Divide the number of training jobs for each HPO job by three: 
-=> [0.01, 0.1] => [0.001, 0.01] [0.0001, 0.001]  
-Select the most accurate hyperparameter configuration form these three HPO jobs.
+C. Use SageMaker Experiments to run and manage multiple training jobs and tune the model of the custom container image. Use the automatic model tuning capability of SageMaker to tune the model of the built-in image classification algorithm. Select the model with the best objective metric value.
 
-
+D. Use the automatic model tuning capability of SageMaker to tune the models of the custom container image and the built-in image classification algorithm at the same time. Select the model with the best objective metric value.
 
