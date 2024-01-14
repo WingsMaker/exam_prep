@@ -1,3 +1,3 @@
-Answer : C
+Answers : C,E,F
 
-Amazon Lex.
+Amazon Lex,Amazon Comprehend,Amazon Transcribe
