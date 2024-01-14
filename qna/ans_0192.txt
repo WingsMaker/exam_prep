@@ -1,4 +1,5 @@
-Answers : A,D
+Answers : B,D,F
 
-Connect to SageMaker by using a VPC interface endpoint powered by AWS PrivateLink.
+Use SCPs to restrict access to SageMaker.
 Enable network isolation for training jobs and models.
+Protect data with encryption at rest and in transit. Use AWS Key Management Service (AWS KMS) to manage encryption keys.
