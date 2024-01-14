@@ -1,0 +1,33 @@
+A machine learning (ML) specialist is using Amazon SageMaker hyperparameter optimization (HPO) to improve a model's accuracy. The learning rate parameter is specified in the following HPO configuration:
+{
+ "Name" : "learning_rate",
+ "MaxValue": "0.0001",
+ "MinValue": "0.1"
+}
+
+During the results analysis, the ML specialist determines that most of the training jobs had a learning rate between 0.01 and 0.1. The best result had a learning rate of less than 0.01. 
+Training jobs need to run regularly over a changing dataset. The ML specialist needs to find a tuning mechanism that uses different learning rates more evenly from the provided range between MinValue and MaxValue.
+Which solution provides the MOST accurate result?
+
+A. Modify the HPO configuration as follows:  Select the most accurate hyperparameter configuration form this HPO job.
+{
+ "Name" : "learning_rate",
+ "MaxValue": "0.0001",
+ "MinValue": "0.1",
+ "ScalingType": "ReverseLogarithmic"
+}
+
+B. Run three different HPO jobs that use different learning rates form the following intervals for MinValue and MaxValue while using the same number of training jobs for each HPO job:
+=> [0.01, 0.1] => [0.001, 0.01] => [0.0001, 0.001] 
+Select the most accurate hyperparameter configuration form these three HPO jobs.
+
+C. Modify the HPO configuration as follows:  
+Select the most accurate hyperparameter configuration form this training job.
+
+D. Run three different HPO jobs that use different learning rates form the following intervals for MinValue and MaxValue. 
+Divide the number of training jobs for each HPO job by three: 
+=> [0.01, 0.1] => [0.001, 0.01] [0.0001, 0.001]  
+Select the most accurate hyperparameter configuration form these three HPO jobs.
+
+
+

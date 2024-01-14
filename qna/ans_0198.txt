@@ -1,0 +1,3 @@
+Answer : D
+
+Run a SageMaker training job with an EFS file system as the data source.

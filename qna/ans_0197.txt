@@ -1,0 +1,8 @@
+Answer : D
+
+Export the database to a .csv file with two columns: claim_label and claim_text. Use Amazon Comprehend custom classification and the .csv file to train the custom classifier. Develop a service in the application to use the Amazon Comprehend API to process incoming claims, predict the labels, and route the claims to the appropriate queue.
+
+A. NO - Object2Vec is unsupervised, it will create vector representations but not assign to a category the claims
+B. NO - we want a supervised method, LDA will create topics in an unsupervised way
+C. NO - again we want a supervised method
+D. YES - That is supervised; no need for ML skills, only basic API programming
