@@ -1,7 +1,14 @@
-A company wants to predict the sale prices of houses based on available historical sales data. The target variable in the company's dataset is the sale price. The features include parameters such as the lot size, living area measurements, non-living area measurements, number of bedrooms, number of bathrooms, year built, and postal code. The company wants to use multi-variable Linear Regression to predict house sale prices. Which step should a machine learning specialist take to remove features that are irrelevant for the analysis and reduce the model's complexity?
+A company wants to predict the sale prices of houses based on available historical sales data. 
+The target variable in the company's dataset is the sale price. 
+The features include parameters such as the lot size, living area measurements, non-living area measurements, number of bedrooms, number of bathrooms, year built, and postal code. 
+The company wants to use multi-variable Linear Regression to predict house sale prices. 
+Which step should a machine learning specialist take to remove features that are irrelevant for the analysis and reduce the model's complexity?
 
-[A] Plot a histogram of the features and compute their standard deviation. Remove features with high variance.
-[B] Plot a histogram of the features and compute their standard deviation. Remove features with low variance.
-[C] Build a heatmap showing the correlation of the dataset against itself. Remove features with low mutual correlation scores.
-[D] Run a correlation check of all features against the target variable. Remove features with low target variable correlation scores.
+A. Plot a histogram of the features and compute their standard deviation. Remove features with high variance.
+
+B. Plot a histogram of the features and compute their standard deviation. Remove features with low variance.
+
+C. Build a heatmap showing the correlation of the dataset against itself. Remove features with low mutual correlation scores.
+
+D. Run a correlation check of all features against the target variable. Remove features with low target variable correlation scores.
 

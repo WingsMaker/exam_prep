@@ -1,7 +1,12 @@
-A Machine Learning Specialist is attempting to build a Linear Regression model. Given the displayed residual plot only, what is the MOST likely problem with the model?
+A Machine Learning Specialist is attempting to build a Linear Regression model. 
+Given the displayed residual plot only, what is the MOST likely problem with the model?
 
-[A] Linear Regression is inappropriate. The residuals do not have constant variance.
-[B] Linear Regression is inappropriate. The underlying data has outliers.
-[C] Linear Regression is appropriate. The residuals have a zero mean.
-[D] Linear Regression is appropriate. The residuals have constant variance.
+A. Linear Regression is inappropriate. The residuals do not have constant variance.
+
+B. Linear Regression is inappropriate. The underlying data has outliers.
+
+C. Linear Regression is appropriate. The residuals have a zero mean.
+
+D. Linear Regression is appropriate. The residuals have constant variance.
+
 

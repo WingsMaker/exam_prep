@@ -1,7 +1,12 @@
-A Machine Learning Specialist is applying a linear least squares regression model to a dataset with 1,000 records and 50 features. Prior to training, the ML Specialist notices that two features are perfectly linearly dependent. Why could this be an issue for the linear least squares regression model?
+A Machine Learning Specialist is applying a linear least squares regression model to a dataset with 1,000 records and 50 features. 
+Prior to training, the ML Specialist notices that two features are perfectly linearly dependent. 
+Why could this be an issue for the linear least squares regression model?
 
-[A] It could cause the backpropagation algorithm to fail during training.
-[B] It could create a singular matrix during optimization, which fails to define a unique solution.
-[C] It could modify the loss function during optimization, causing it to fail during training.
-[D] It could introduce non-linear dependencies within the data, which could invalidate the linear assumptions of the model.
+A. It could cause the backpropagation algorithm to fail during training.
+
+B. It could create a singular matrix during optimization, which fails to define a unique solution.
+
+C. It could modify the loss function during optimization, causing it to fail during training.
+
+D. It could introduce non-linear dependencies within the data, which could invalidate the linear assumptions of the model.
 

@@ -1,9 +1,17 @@
-A Data Scientist needs to analyze employment data. The dataset contains approximately 10 million observations on people across 10 different features. During the preliminary analysis, the Data Scientist notices that income and age distributions are not normal. While income levels shows a right skew as expected, with fewer individuals having a higher income, the age distribution also shows a right skew, with fewer older individuals participating in the workforce. Which feature transformations can the Data Scientist apply to fix the incorrectly skewed data?
+A Data Scientist needs to analyze employment data. 
+The dataset contains approximately 10 million observations on people across 10 different features. 
+During the preliminary analysis, the Data Scientist notices that income and age distributions are not normal. 
+While income levels shows a right skew as expected, with fewer individuals having a higher income, the age distribution also shows a right skew, with fewer older individuals participating in the workforce. 
+Which feature transformations can the Data Scientist apply to fix the incorrectly skewed data?
 (Choose two.)
 
-[A] Cross-validation.
-[B] Numerical value binning.
-[C] High-degree polynomial transformation.
-[D] Logarithmic transformation.
-[E] One hot encoding.
+A. Cross-validation.
+
+B. Numerical value binning.
+
+C. High-degree polynomial transformation.
+
+D. Logarithmic transformation.
+
+E. One hot encoding.
 
