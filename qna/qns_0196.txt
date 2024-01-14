@@ -1,7 +1,14 @@
-A data scientist has been running an Amazon SageMaker notebook instance for a few weeks. During this time, a new version of Jupyter Notebook was released along with additional software updates. The security team mandates that all running SageMaker notebook instances use the latest security and software updates provided by SageMaker. How can the data scientist meet this requirements?
+A data scientist has been running an Amazon SageMaker notebook instance for a few weeks. 
+During this time, a new version of Jupyter Notebook was released along with additional software updates. 
+The security team mandates that all running SageMaker notebook instances use the latest security and software updates provided by SageMaker. 
+How can the data scientist meet this requirements?
 
-[A] Call the CreateNotebookInstanceLifecycleConfig API operation.
-[B] Create a new SageMaker notebook instance and mount the Amazon Elastic Block Store (Amazon EBS) volume from the original instance.
-[C] Stop and then restart the SageMaker notebook instance.
-[D] Call the UpdateNotebookInstanceLifecycleConfig API operation.
+A. Call the CreateNotebookInstanceLifecycleConfig API operation.
+
+B. Create a new SageMaker notebook instance and mount the Amazon Elastic Block Store (Amazon EBS) volume from the original instance.
+
+C. Stop and then restart the SageMaker notebook instance.
+
+D. Call the UpdateNotebookInstanceLifecycleConfig API operation.
+
 

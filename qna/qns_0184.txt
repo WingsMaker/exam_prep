@@ -1,7 +1,12 @@
-A data scientist needs to identify fraudulent user accounts for a company's ecommerce platform. The company wants the ability to determine if a newly created account is associated with a previously known fraudulent user. The data scientist is using AWS Glue to cleanse the company's application logs during ingestion. Which strategy will allow the data scientist to identify fraudulent accounts?
+A data scientist needs to identify fraudulent user accounts for a company's ecommerce platform. 
+The company wants the ability to determine if a newly created account is associated with a previously known fraudulent user. 
+The data scientist is using AWS Glue to cleanse the company's application logs during ingestion. 
+Which strategy will allow the data scientist to identify fraudulent accounts?
 
-[A] Execute the built-in FindDuplicates Amazon Athena query.
-[B] Create a FindMatches machine learning transform in AWS Glue.
-[C] Create an AWS Glue crawler to infer duplicate accounts in the source data.
-[D] Search for duplicate accounts in the AWS Glue Data Catalog.
+A. Execute the built-in FindDuplicates Amazon Athena query.
 
+B. Create a FindMatches machine learning transform in AWS Glue.
+
+C. Create an AWS Glue crawler to infer duplicate accounts in the source data.
+
+D. Search for duplicate accounts in the AWS Glue Data Catalog.

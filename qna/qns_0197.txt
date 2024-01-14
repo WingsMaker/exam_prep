@@ -1,6 +1,10 @@
-A retail company wants to update its customer support system. The company wants to implement automatic routing of customer claims to different queues to prioritize the claims by category.
-Currently, an operator manually performs the category assignment and routing. After the operator classifies and routes the claim, the company stores the claim's record in a central database. The claim's record includes the claim's category.
-The company has no data science team or experience in the field of machine learning (ML). The company's small development team needs a solution that requires no ML expertise.
+A retail company wants to update its customer support system. 
+The company wants to implement automatic routing of customer claims to different queues to prioritize the claims by category.
+Currently, an operator manually performs the category assignment and routing. 
+After the operator classifies and routes the claim, the company stores the claim's record in a central database. 
+The claim's record includes the claim's category.
+The company has no data science team or experience in the field of machine learning (ML). 
+The company's small development team needs a solution that requires no ML expertise.
 Which solution meets these requirements?
 
 A. Export the database to a .csv file with two columns: claim_label and claim_text. Use the Amazon SageMaker Object2Vec algorithm and the .csv file to train a model. Use SageMaker to deploy the model to an inference endpoint. Develop a service in the application to use the inference endpoint to process incoming claims, predict the labels, and route the claims to the appropriate queue.

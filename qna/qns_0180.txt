@@ -1,9 +1,17 @@
-A logistics company needs a forecast model to predict next month's inventory requirements for a single item in 10 warehouses. A machine learning specialist uses Amazon Forecast to develop a forecast model from 3 years of monthly data. There is no missing data. The specialist selects the DeepAR+ algorithm to train a predictor. The predictor means absolute percentage error (MAPE) is much larger than the MAPE produced by the current human forecasters. Which changes to the CreatePredictor API call could improve the MAPE?
+A logistics company needs a forecast model to predict next month's inventory requirements for a single item in 10 warehouses. 
+A machine learning specialist uses Amazon Forecast to develop a forecast model from 3 years of monthly data. 
+There is no missing data. 
+The specialist selects the DeepAR+ algorithm to train a predictor. 
+The predictor means absolute percentage error (MAPE) is much larger than the MAPE produced by the current human forecasters. 
+Which changes to the CreatePredictor API call could improve the MAPE?
 (Choose two.)
 
-[A] Set PerformAutoML to true.
-[B] Set ForecastHorizon to 4.
-[C] Set ForecastFrequency to W for weekly.
-[D] Set PerformHPO to true.
-[E] Set FeaturizationMethodName to filling.
+A. Set PerformAutoML to true.
 
+B. Set ForecastHorizon to 4.
+
+C. Set ForecastFrequency to W for weekly.
+
+D. Set PerformHPO to true.
+
+E. Set FeaturizationMethodName to filling.

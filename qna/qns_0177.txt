@@ -1,7 +1,13 @@
-A retail company is using Amazon Personalize to provide personalized product recommendations for its customers during a marketing campaign. The company sees a significant increase in sales of recommended items to existing customers immediately after deploying a new solution version, but these sales decrease a short time after deployment. Only historical data from before the marketing campaign is available for training. How should a data scientist adjust the solution?
+A retail company is using Amazon Personalize to provide personalized product recommendations for its customers during a marketing campaign. 
+The company sees a significant increase in sales of recommended items to existing customers immediately after deploying a new solution version, but these sales decrease a short time after deployment. 
+Only historical data from before the marketing campaign is available for training. 
+How should a data scientist adjust the solution?
 
-[A] Use the event tracker in Amazon Personalize to include real-time user interactions.
-[B] Add user metadata and use the HRNN-Metadata recipe in Amazon Personalize.
-[C] Implement a new solution using the built-in factorization machines (FM) algorithm in Amazon SageMaker.
-[D] Add event type and event value fields to the interactions dataset in Amazon Personalize.
+A.Use the event tracker in Amazon Personalize to include real-time user interactions.
+
+B.Add user metadata and use the HRNN-Metadata recipe in Amazon Personalize.
+
+C.Implement a new solution using the built-in factorization machines (FM) algorithm in Amazon SageMaker.
+
+D.Add event type and event value fields to the interactions dataset in Amazon Personalize.
 

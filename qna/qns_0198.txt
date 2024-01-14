@@ -1,8 +1,13 @@
-A data scientist has a dataset of machine part images stored in Amazon Elastic File System (Amazon EFS). The data scientist needs to use Amazon SageMaker to create and train an image classification machine learning model based on this dataset. Because of budget and time constraints, management wants the data scientist to create and train a model with the least number of steps and integration work required.
+A data scientist has a dataset of machine part images stored in Amazon Elastic File System (Amazon EFS). 
+The data scientist needs to use Amazon SageMaker to create and train an image classification machine learning model based on this dataset. 
+Because of budget and time constraints, management wants the data scientist to create and train a model with the least number of steps and integration work required.
 How should the data scientist meet these requirements?
 
 A. Mount the EFS file system to a SageMaker notebook and run a script that copies the data to an Amazon FSx for Lustre file system. Run the SageMaker training job with the FSx for Lustre file system as the data source.
+
 B. Launch a transient Amazon EMR cluster. Configure steps to mount the EFS file system and copy the data to an Amazon S3 bucket by using S3DistCp. Run the SageMaker training job with Amazon S3 as the data source.
+
 C. Mount the EFS file system to an Amazon EC2 instance and use the AWS CLI to copy the data to an Amazon S3 bucket. Run the SageMaker training job with Amazon S3 as the data source.
+
 D. Run a SageMaker training job with an EFS file system as the data source.
 

@@ -1,4 +1,6 @@
-A data science team is planning to build a natural language processing (NLP) application. The application's text preprocessing stage will include part-of-speech tagging and key phase extraction. The preprocessed text will be input to a custom classification algorithm that the data science team has already written and trained using Apache MXNet.
+A data science team is planning to build a natural language processing (NLP) application. 
+The application's text preprocessing stage will include part-of-speech tagging and key phase extraction. 
+The preprocessed text will be input to a custom classification algorithm that the data science team has already written and trained using Apache MXNet.
 Which solution can the team build MOST quickly to meet these requirements?
 
 A. Use Amazon Comprehend for the part-of-speech tagging, key phase extraction, and classification tasks.

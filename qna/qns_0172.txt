@@ -1,7 +1,13 @@
-A data scientist has explored and sanitized a dataset in preparation for the modeling phase of a supervised learning task. The statistical dispersion can vary widely between features, sometimes by several orders of magnitude. Before moving on to the modeling phase, the data scientist wants to ensure that the prediction performance on the production data is as accurate as possible. Which sequence of steps should the data scientist take to meet these requirements?
+A data scientist has explored and sanitized a dataset in preparation for the modeling phase of a supervised learning task. 
+The statistical dispersion can vary widely between features, sometimes by several orders of magnitude. 
+Before moving on to the modeling phase, the data scientist wants to ensure that the prediction performance on the production data is as accurate as possible. 
+Which sequence of steps should the data scientist take to meet these requirements?
 
-[A] Apply random sampling to the dataset. Then split the dataset into training, validation, and test sets.
-[B] Split the dataset into training, validation, and test sets. Then rescale the training set and apply the same scaling to the validation and test sets.
-[C] Rescale the dataset. Then split the dataset into training, validation, and test sets.
-[D] Split the dataset into training, validation, and test sets. Then rescale the training set, the validation set, and the test set independently.
+A.Apply random sampling to the dataset. Then split the dataset into training, validation, and test sets.
+
+B.Split the dataset into training, validation, and test sets. Then rescale the training set and apply the same scaling to the validation and test sets.
+
+C.Rescale the dataset. Then split the dataset into training, validation, and test sets.
+
+D.Split the dataset into training, validation, and test sets. Then rescale the training set, the validation set, and the test set independently.
 

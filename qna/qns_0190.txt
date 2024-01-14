@@ -1,7 +1,14 @@
-A company ingests machine learning (ML) data from web advertising clicks into an Amazon S3 data lake. Click data is added to an Amazon Kinesis data stream by using the Kinesis Producer Library (KPL). The data is loaded into the S3 data lake from the data stream by using an Amazon Kinesis Data Firehose delivery stream. As the data volume increases, an ML specialist notices that the rate of data ingested into Amazon S3 is relatively constant. There also is an increasing backlog of data for Kinesis Data Streams and Kinesis Data Firehose to ingest. Which next step is MOST likely to improve the data ingestion rate into Amazon S3?
+A company ingests machine learning (ML) data from web advertising clicks into an Amazon S3 data lake. 
+Click data is added to an Amazon Kinesis data stream by using the Kinesis Producer Library (KPL). 
+The data is loaded into the S3 data lake from the data stream by using an Amazon Kinesis Data Firehose delivery stream. 
+As the data volume increases, an ML specialist notices that the rate of data ingested into Amazon S3 is relatively constant. 
+There also is an increasing backlog of data for Kinesis Data Streams and Kinesis Data Firehose to ingest. Which next step is MOST likely to improve the data ingestion rate into Amazon S3?
 
-[A] Increase the number of S3 prefixes for the delivery stream to write to.
-[B] Decrease the retention period for the data stream.
-[C] Increase the number of shards for the data stream.
-[D] Add more consumers using the Kinesis Client Library (KCL).
+A. Increase the number of S3 prefixes for the delivery stream to write to.
+
+B. Decrease the retention period for the data stream.
+
+C. Increase the number of shards for the data stream.
+
+D. Add more consumers using the Kinesis Client Library (KCL).
 

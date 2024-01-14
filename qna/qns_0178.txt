@@ -1,9 +1,16 @@
-A machine learning (ML) specialist wants to secure calls to the Amazon SageMaker Service API. The specialist has configured Amazon VPC with a VPC interface endpoint for the Amazon SageMaker Service API and is attempting to secure traffic from specific sets of instances and IAM users. The VPC is configured with a single public subnet. Which combination of steps should the ML specialist take to secure the traffic?
+A machine learning (ML) specialist wants to secure calls to the Amazon SageMaker Service API. 
+The specialist has configured Amazon VPC with a VPC interface endpoint for the Amazon SageMaker Service API and is attempting to secure traffic from specific sets of instances and IAM users. 
+The VPC is configured with a single public subnet. 
+Which combination of steps should the ML specialist take to secure the traffic?
 (Choose two.)
 
-[A] Add a VPC endpoint policy to allow access to the IAM users.
-[B] Modify the users' IAM policy to allow access to Amazon SageMaker Service API calls only.
-[C] Modify the security group on the endpoint network interface to restrict access to the instances.
-[D] Modify the ACL on the endpoint network interface to restrict access to the instances.
-[E] Add a SageMaker Runtime VPC endpoint interface to the VPC.
+A.Add a VPC endpoint policy to allow access to the IAM users.
+
+B.Modify the users' IAM policy to allow access to Amazon SageMaker Service API calls only.
+
+C.Modify the security group on the endpoint network interface to restrict access to the instances.
+
+D.Modify the ACL on the endpoint network interface to restrict access to the instances.
+
+E.Add a SageMaker Runtime VPC endpoint interface to the VPC.
 

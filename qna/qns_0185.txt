@@ -1,7 +1,12 @@
-A data scientist has developed a machine learning translation model for English to Japanese by using Amazon SageMaker's built-in seq2seq algorithm with 500,000 aligned sentence pairs. While testing with sample sentences, the data scientist finds that the translation quality is reasonable for an example as short as five words. However, the quality becomes unacceptable if the sentence is 100 words long. Which action will resolve the problem?
+A data scientist has developed a machine learning translation model for English to Japanese by using Amazon SageMaker's built-in seq2seq algorithm with 500,000 aligned sentence pairs. 
+While testing with sample sentences, the data scientist finds that the translation quality is reasonable for an example as short as five words. 
+However, the quality becomes unacceptable if the sentence is 100 words long. 
+Which action will resolve the problem?
 
-[A] Change preprocessing to use n-grams.
-[B] Add more nodes to the Recurrent Neural Network (RNN) than the largest sentence's word count.
-[C] Adjust hyperparameters related to the attention mechanism.
-[D] Choose a different weight initialization type.
+A. Change preprocessing to use n-grams.
 
+B. Add more nodes to the Recurrent Neural Network (RNN) than the largest sentence's word count.
+
+C. Adjust hyperparameters related to the attention mechanism.
+
+D. Choose a different weight initialization type.
