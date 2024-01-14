@@ -1,7 +1,11 @@
-Tom has been tasked to install Check Point R80 in a distributed deployment. Before Tom installs the systems this way, how many machines will he need if he does NOT include a SmartConsole machine in his calculations?
+Tom has been tasked to install Check Point R80 in a distributed deployment. 
+Before Tom installs the systems this way, how many machines will he need if he does NOT include a SmartConsole machine in his calculations?
 
-[A] One machine, but it needs to be installed using SecurePlatform for compatibility purposes.
-[B] One machine.
-[C] Two machines.
-[D] Three machines.
+A. One machine, but it needs to be installed using SecurePlatform for compatibility purposes.
+
+B. One machine.
+
+C. Two machines.
+
+D. Three machines.
 
