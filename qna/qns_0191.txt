@@ -1,4 +1,5 @@
-A data scientist must build a custom recommendation model in Amazon SageMaker for an online retail company. Due to the nature of the company's products, customers buy only 4-5 products every 5-10 years. 
+A data scientist must build a custom recommendation model in Amazon SageMaker for an online retail company. 
+Due to the nature of the company's products, customers buy only 4-5 products every 5-10 years. 
 So, the company relies on a steady stream of new customers. 
 When a new customer signs up, the company collects data on the customer's preferences. 
 Below is a sample of the data available to the data scientist. 

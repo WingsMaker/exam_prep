@@ -1,6 +1,8 @@
-A machine learning (ML) specialist has prepared and used a custom container image with Amazon SageMaker to train an image classification model. The ML specialist is performing hyperparameter optimization (HPO) with this custom container image to produce a higher quality image classifier.
+A machine learning (ML) specialist has prepared and used a custom container image with Amazon SageMaker to train an image classification model. 
+The ML specialist is performing hyperparameter optimization (HPO) with this custom container image to produce a higher quality image classifier.
 
-The ML specialist needs to determine whether HPO with the SageMaker built-in image classification algorithm will produce a better model than the model produced by HPO with the custom container image. All ML experiments and HPO jobs must be invoked from scripts inside SageMaker Studio notebooks.
+The ML specialist needs to determine whether HPO with the SageMaker built-in image classification algorithm will produce a better model than the model produced by HPO with the custom container image. 
+All ML experiments and HPO jobs must be invoked from scripts inside SageMaker Studio notebooks.
 
 How can the ML specialist meet these requirements in the LEAST amount of time?
 
