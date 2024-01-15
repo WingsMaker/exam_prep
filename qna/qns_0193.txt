@@ -1,5 +1,6 @@
 A company needs to quickly make sense of a large amount of data and gain insight from it. 
-The data is in different formats, the schemas change frequently, and new data sources are added regularly. The company wants to use AWS services to explore multiple data sources, suggest schemas, and enrich and transform the data. 
+The data is in different formats, the schemas change frequently, and new data sources are added regularly. 
+The company wants to use AWS services to explore multiple data sources, suggest schemas, and enrich and transform the data. 
 The solution should require the least possible coding effort for the data flows and the least possible infrastructure management. 
 Which combination of AWS services will meet these requirements?
 
