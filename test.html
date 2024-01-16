@@ -46,11 +46,10 @@ voice.lang = "en-SG";
 document.getElementById("qrng").max = max_qns;
 document.getElementById("qrng").min = "1";
 document.getElementById("qrng").value = "1";
-display_content(1);
+//display_content(1);
 
-if ( ( window.innerWidth <= 640 ) && ( window.innerHeight <= 1080 ) ) {
-	alert("mobile device !");
-}
+alert(window.innerWidth.toString());
+alert(window.innerHeight.toString());
   
 $(document).ready(function(){
   $("#viewqn").click(function(){
