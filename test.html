@@ -13,21 +13,22 @@
 <h3><a id="a-title" style="color:white" href="https://wingsmaker.github.io/exam_prep/">Home</a></h3>
 <h1>Exam Questions Viewer</h1>
 <br>
-<div id="qns" style="font-size: 20px;"></div>
-<br>
-<div id="cht"></div>
-<br>
-<input type="range" min="1" max="300" value="1" id="qrng" style="width: 100%">
-<br>
-<br>
-<br>
-<input id="viewqn" type="submit" value="Answers" style="height: 100px;width: 100px"/>
-<input id="prev" type="submit" value="Prev" style="height: 100px;width: 100px"/>
-<input id="next" type="submit" value="Next" style="height: 100px;width: 100px"/>
-<input id="voice" type="submit" value="Voice" style="height: 100px;width: 100px"/>
-<br>
-<label for="rate">Speed:</label>
-<input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+<div id="exam" style="font-size: 20px;">
+	<div id="qns"></div>
+	<br>
+	<div id="cht"></div>
+	<br>
+	<input type="range" min="1" max="300" value="1" id="qrng" style="width: 100%">
+	<br>
+	<br>
+	<br>
+	<input id="viewqn" type="submit" value="Answers" style="height: 100px;width: 100px"/>
+	<input id="prev" type="submit" value="Prev" style="height: 100px;width: 100px"/>
+	<input id="next" type="submit" value="Next" style="height: 100px;width: 100px"/>
+	<input id="voice" type="submit" value="Voice" style="height: 100px;width: 100px"/>
+	<br>
+	<label for="rate">Speed:</label>
+	<input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
 </div>
 <hr>
 </body>
@@ -49,9 +50,9 @@ document.getElementById("qrng").value = "1";
 display_content(1);
 
 if ( ( window.innerWidth <= 1024 ) && ( window.innerHeight <= 2048 ) ) {
-	document.getElementById("qns").style.fontSize = "40px";
+	document.getElementById("exam").style.fontSize = "40px";
 	document.getElementById("viewqn").style.fontSize = "50px";
-	document.getElementById("viewqn").style.width = "200px";
+	document.getElementById("viewqn").style.width = "250px";
 	document.getElementById("viewqn").style.height = "200px";
 	document.getElementById("prev").style.fontSize = "50px";
 	document.getElementById("prev").style.width = "200px";
