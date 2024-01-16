@@ -1,4 +1,5 @@
-A Machine Learning Specialist is implementing a full Bayesian network on a dataset that describes public transit in New York City. One of the random variables is discrete, and represents the number of minutes New Yorkers wait for a bus given that the buses cycle every 10 minutes, with a mean of 3 minutes.
+A Machine Learning Specialist is implementing a full Bayesian network on a dataset that describes public transit in New York City. 
+One of the random variables is discrete, and represents the number of minutes New Yorkers wait for a bus given that the buses cycle every 10 minutes, with a mean of 3 minutes.
 Which prior probability distribution should the ML Specialist use for this variable?
 
 A. Poisson distribution 

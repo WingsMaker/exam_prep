@@ -1,4 +1,6 @@
-A company is setting up a system to manage all of the datasets it stores in Amazon S3. The company would like to automate running transformation jobs on the data and maintaining a catalog of the metadata concerning the datasets. The solution should require the least amount of setup and maintenance.
+A company is setting up a system to manage all of the datasets it stores in Amazon S3. 
+The company would like to automate running transformation jobs on the data and maintaining a catalog of the metadata concerning the datasets. 
+The solution should require the least amount of setup and maintenance.
 Which solution will allow the company to achieve its goals?
 
 A) Create an Amazon EMR cluster with Apache Hive installed. Then, create a Hive metastore and a script to run transformation jobs on a schedule.

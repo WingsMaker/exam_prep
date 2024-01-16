@@ -1,4 +1,6 @@
-A Machine Learning Specialist observes several performance problems with the training portion of a machine learning solution on Amazon SageMaker The solution uses a large training dataset 2 TB in size and is using the SageMaker k-means algorithm The observed issues include the unacceptable length of time it takes before the training job launches and poor I/O throughput while training the model.
+A Machine Learning Specialist observes several performance problems with the training portion of a machine learning solution on Amazon SageMaker.
+The solution uses a large training dataset 2 TB in size and is using the SageMaker k-means algorithm.
+The observed issues include the unacceptable length of time it takes before the training job launches and poor I/O throughput while training the model.
 What should the Specialist do to address the performance issues with the current solution?
 
 A. Use the SageMaker batch transform feature

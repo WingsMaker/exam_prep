@@ -1,5 +1,5 @@
 Answers : B
 
-keyword : bucket
+keywords : bucket, EC2
 
 

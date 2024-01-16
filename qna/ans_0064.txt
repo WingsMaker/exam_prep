@@ -1,2 +1,11 @@
-Answers : D
+Answers : C
 
+A. NO - We don't place a S3 bucket in a VPC, it is always in AWS Service Account
+
+B. NO - without an S3 VPC endpoint, traffic will go through the Internet
+
+C. YES - We must use the VPC endpoint (either Gateway Endpoint or Interface Endpoint)to comply with this requirement "Data communication traffic must stay within the AWS network".
+
+D. NO - we need endpoints for both SageMaker and S3 to avoid Internet traffic
+
+VPC endpoint and NAT gateway are similar, but NAT gateway is for giving resources in the VPC the chance to initiate connections with the internet, whereas a VPC endpoint only allows it to go to other AWS services.

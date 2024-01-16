@@ -1,4 +1,5 @@
-A Machine Learning Specialist is creating a new natural language processing application that processes a dataset comprised of 1 million sentences The aim is to then run Word2Vec to generate embeddings of the sentences and enable different types of predictions
+A Machine Learning Specialist is creating a new natural language processing application that processes a dataset comprised of 1 million sentences.
+The aim is to then run Word2Vec to generate embeddings of the sentences and enable different types of predictions.
 Here is an example from the dataset
 "The quck BROWN FOX jumps over the lazy dog "
 Which of the following are the operations the Specialist needs to perform to correctly sanitize and prepare the data in a repeatable manner? (Select THREE)

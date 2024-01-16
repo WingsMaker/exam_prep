@@ -1,4 +1,8 @@
-A Machine Learning Specialist is working for a credit card processing company and receives an unbalanced dataset containing credit card transactions. It contains 99000 valid transactions and 1000 fraudulent transactions The Specialist is asked to score a model that was run against the dataset The Specialist has been advised that identifying valid transactions is equally as important as identifying fraudulent transactions What metric is BEST suited to score the model?
+A Machine Learning Specialist is working for a credit card processing company and receives an unbalanced dataset containing credit card transactions. 
+It contains 99000 valid transactions and 1000 fraudulent transactions.
+The Specialist is asked to score a model that was run against the dataset.
+The Specialist has been advised that identifying valid transactions is equally as important as identifying fraudulent transactions.
+What metric is BEST suited to score the model?
 
 A. Precision
 

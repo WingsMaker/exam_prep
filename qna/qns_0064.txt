@@ -1,20 +1,13 @@
-A Data Science team within a large company uses Amazon SageMaker notebooks to access data stored in Amazon S3 buckets. The IT Security team is concerned that internet-enabled notebook instances create a security vulnerability where malicious code running on the instances could compromise data privacy.
+A Data Science team within a large company uses Amazon SageMaker notebooks to access data stored in Amazon S3 buckets. 
+The IT Security team is concerned that internet-enabled notebook instances create a security vulnerability where malicious code running on the instances could compromise data privacy.
 The company mandates that all instances stay within a secured VPC with no internet access, and data communication traffic must stay within the AWS network.
 How should the Data Science team configure the notebook instance placement to meet these requirements?
 
-A. Associate the Amazon SageMaker notebook with a private subnet in a VP
+A. Associate the Amazon SageMaker notebook with a private subnet in a VPC. Place the Amazon SageMaker endpoint and S3 buckets within the same VPC.
 
-B. Place the Amazon SageMaker endpoint and S3 buckets within the same VPC.
+B. Associate the Amazon SageMaker notebook with a private subnet in a VPC. Use IAM policies to grant access to Amazon S3 and Amazon SageMaker.
 
-C. Associate the Amazon SageMaker notebook with a private subnet in a VP
+C. Associate the Amazon SageMaker notebook with a private subnet in a VPC. Ensure the VPC has S3 VPC endpoints and Amazon SageMaker VPC endpoints attached to it.
 
-D. Use IAM policies to grant access to Amazon S3 and Amazon SageMaker.
-
-E. Associate the Amazon SageMaker notebook with a private subnet in a VP
-
-F. Ensure the VPC has S3 VPC endpoints and Amazon SageMaker VPC endpoints attached to it.
-
-G. Associate the Amazon SageMaker notebook with a private subnet in a VP
-
-H. Ensure the VPC has a NAT gateway and an associated security group allowing only outbound connections to Amazon S3 and Amazon SageMaker
+D. Associate the Amazon SageMaker notebook with a private subnet in a VPC. Ensure the VPC has a NAT gateway and an associated security group allowing only outbound connections to Amazon S3 and Amazon SageMaker.
 

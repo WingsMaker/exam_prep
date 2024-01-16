@@ -1,4 +1,5 @@
-A data scientist uses logistic regression to build a fraud detection model. While the model accuracy is 99%, 90% of the fraud cases are not detected by the model.
+A data scientist uses logistic regression to build a fraud detection model. 
+While the model accuracy is 99%, 90% of the fraud cases are not detected by the model.
 What action will definitively help the model detect more than 10% of fraud cases?
 
 A) Using undersampling to balance the dataset

@@ -1,4 +1,5 @@
-A company wants to classify user behavior as either fraudulent or normal. Based on internal research, a Machine Learning Specialist would like to build a binary classifier based on two features: age of account and transaction month. 
+A company wants to classify user behavior as either fraudulent or normal. 
+Based on internal research, a Machine Learning Specialist would like to build a binary classifier based on two features: age of account and transaction month. 
 The class distribution for these features is illustrated in the figure provided.
 
 Based on this information which model would have the HIGHEST accuracy?

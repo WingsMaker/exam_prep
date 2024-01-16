@@ -1,4 +1,5 @@
-A data scientist is evaluating different binary classification models. A false positive result is 5 times more expensive (from a business perspective) than a false negative result.
+A data scientist is evaluating different binary classification models. 
+A false positive result is 5 times more expensive (from a business perspective) than a false negative result.
 The models should be evaluated based on the following criteria:
 1) Must have a recall rate of at least 80%
 2) Must have a false positive rate of 10% or less
