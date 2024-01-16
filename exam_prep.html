@@ -22,10 +22,11 @@
 	<br>
 	<br>
 	<br>
-	<input id="viewqn" type="submit" value="Answers" style="height: 100px;width: 100px"/>
-	<input id="prev" type="submit" value="Prev" style="height: 100px;width: 100px"/>
-	<input id="next" type="submit" value="Next" style="height: 100px;width: 100px"/>
-	<input id="voice" type="submit" value="Voice" style="height: 100px;width: 100px"/>
+	<input id="viewqn" type="submit" value="Answers" style="height: 80px;width: 100px"/>
+	<input id="prev" type="submit" value="Prev" style="height: 80px;width: 100px"/>
+	<input id="next" type="submit" value="Next" style="height: 80px;width: 100px"/>
+	<input id="voice" type="submit" value="Voice" style="height: 80px;width: 100px"/>
+	<input id="screen" type="submit" value="Mobile" style="height: 80px;width: 100px"/>
 	<br>
 	<label for="rate">Speed:</label>
 	<input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
@@ -37,6 +38,7 @@
 console.clear();
 const synth = window.speechSynthesis;
 var arr_charts = [11,12,23,25,68];
+let desktop_mode = 1;
 let qnmode = 0; 
 let max_qns = 200;
 let voice = new SpeechSynthesisUtterance();
@@ -49,21 +51,13 @@ document.getElementById("qrng").min = "1";
 document.getElementById("qrng").value = "1";
 display_content(1);
 
+
 if ( ( window.innerWidth <= 1024 ) && ( window.innerHeight <= 2048 ) ) {
-	document.getElementById("exam").style.fontSize = "40px";
-	document.getElementById("viewqn").style.fontSize = "50px";
-	document.getElementById("viewqn").style.width = "250px";
-	document.getElementById("viewqn").style.height = "200px";
-	document.getElementById("prev").style.fontSize = "50px";
-	document.getElementById("prev").style.width = "200px";
-	document.getElementById("prev").style.height = "200px";
-	document.getElementById("next").style.fontSize = "50px";
-	document.getElementById("next").style.width = "200px";
-	document.getElementById("next").style.height = "200px";
-	document.getElementById("voice").style.fontSize = "50px";
-	document.getElementById("voice").style.width = "200px";
-	document.getElementById("voice").style.height = "200px";
-	
+	desktop_mode = 0;
+	mobile_screen();
+} else {
+	desktop_mode = 1;
+	desktop_screen();
 }
   
 $(document).ready(function(){
@@ -119,6 +113,17 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $("#screen").click(function(){
+	desktop_mode = 1 - desktop_mode;
+	if (desktop_mode==0) {
+		mobile_screen();
+	} else {
+		desktop_screen();
+	}
+  });
+});
+
 document.getElementById("qrng").oninput = function() {
 	r = document.getElementById("qrng").value;
 	ii = parseInt(r);
@@ -163,6 +168,48 @@ function display_content(ii) {
 function textToSpeech(msg) {
 	voice.text = msg;
 	synth.speak(voice);
+}
+
+function mobile_screen() {
+	document.getElementById("exam").style.fontSize = "40px";
+	document.getElementById("viewqn").style.fontSize = "50px";
+	document.getElementById("viewqn").style.width = "250px";
+	document.getElementById("viewqn").style.height = "200px";
+	document.getElementById("prev").style.fontSize = "50px";
+	document.getElementById("prev").style.width = "200px";
+	document.getElementById("prev").style.height = "200px";
+	document.getElementById("next").style.fontSize = "50px";
+	document.getElementById("next").style.width = "200px";
+	document.getElementById("next").style.height = "200px";
+	document.getElementById("voice").style.fontSize = "50px";
+	document.getElementById("voice").style.width = "200px";
+	document.getElementById("voice").style.height = "200px";
+	document.getElementById("screen").value = "Desktop";
+	document.getElementById("screen").style.fontSize = "40px";
+	document.getElementById("screen").style.width = "200px";
+	document.getElementById("screen").style.height = "200px";
+	desktop_mode = 0;
+}
+
+function desktop_screen() {
+	document.getElementById("exam").style.fontSize = "20px";
+	document.getElementById("viewqn").style.fontSize = "20px";
+	document.getElementById("viewqn").style.width = "100px";
+	document.getElementById("viewqn").style.height = "80px";
+	document.getElementById("prev").style.fontSize = "20px";
+	document.getElementById("prev").style.width = "100px";
+	document.getElementById("prev").style.height = "80px";
+	document.getElementById("next").style.fontSize = "20px";
+	document.getElementById("next").style.width = "100px";
+	document.getElementById("next").style.height = "80px";
+	document.getElementById("voice").style.fontSize = "20px";
+	document.getElementById("voice").style.width = "100px";
+	document.getElementById("voice").style.height = "80px";
+	document.getElementById("screen").value = "Mobile";
+	document.getElementById("screen").style.fontSize = "20px";
+	document.getElementById("screen").style.width = "100px";
+	document.getElementById("screen").style.height = "80px";
+	desktop_mode = 1;
 }
 
 </script>
