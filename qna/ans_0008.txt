@@ -1,2 +1,19 @@
-Answers : C
+Answers : B
 
+Explaination
+AWS CloudTrail provides a history of AWS API calls made on the account. 
+The Machine Learning team can use AWS CloudTrail to log Amazon SageMaker API calls to Amazon S3. 
+They can then use CloudWatch to create alarms and receive notifications when the model is overfitting.
+
+To ensure auditors can view the Amazon SageMaker log activity report, the team can add code to push a custom metric to Amazon CloudWatch. This provides a single place to view and analyze logs across all the services and resources in the environment.
+
+CloudTrail logs captured in S3 without any code/lambda
+The custom metrics can be published to Cloudwatch...test for overfit on MXNET...which will set off an alarm...which can then be subscribed on SNS
+
+What does this line do?
+	"Add code to push a custom metric to Amazon CloudWatch"
+It creates a metric for overfitting (accuracy of training data and accuracy of test data).
+
+
+Reference
+https://docs.aws.amazon.com/sagemaker/latest/dg/logging-using-cloudtrail.html
