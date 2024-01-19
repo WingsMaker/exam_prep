@@ -1,2 +1,25 @@
-Answers : A,D,E
+Answers : B, C, E
+
+Explanation:
+
+The SageMaker Spark library is a library that enables Apache Spark applications to integrate with Amazon SageMaker for training and hosting machine learning models.
+
+The library provides several features, such as:
+
+Estimators: Classes that allow Spark users to train Amazon SageMaker models and host them on Amazon SageMaker endpoints using the Spark MLlib Pipelines API. 
+The library supports various built-in algorithms, such as linear learner, XGBoost, K-means, etc., as well as custom algorithms using Docker containers.
+
+Model classes: Classes that wrap Amazon SageMaker models in a Spark MLlib Model abstraction. 
+This allows Spark users to use Amazon SageMaker endpoints for inference within Spark applications. 
+Data sources: Classes that allow Spark users to read data from Amazon S3 using the Spark Data Sources API. The library supports various data formats, such as CSV, LibSVM, RecordIO, etc.
+
+To integrate the Spark application with SageMaker, the Machine Learning Specialist should do the following:
+
+Install the SageMaker Spark library in the Spark environment. 
+This can be done by using Maven, pip, or downloading the JAR file from GitHub.
+
+Use the appropriate estimator from the SageMaker Spark Library to train a model.
+
+Reference
+https://www.exam4training.com/which-of-the-following-would-the-specialist-do-to-integrate-the-spark-application-with-sagemaker/
 

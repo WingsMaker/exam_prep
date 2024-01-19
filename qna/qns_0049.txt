@@ -1,13 +1,15 @@
-A Machine Learning Specialist is using Apache Spark for pre-processing training data As part of the Spark pipeline, the Specialist wants to use Amazon SageMaker for training a model and hosting it Which of the following would the Specialist do to integrate the Spark application with SageMaker? (Select THREE )
+A Machine Learning Specialist is using Apache Spark for pre-processing training data As part of the Spark pipeline, the Specialist wants to use Amazon SageMaker for training a model and hosting it.
+Which of the following would the Specialist do to integrate the Spark application with SageMaker? (Select THREE )
 
-A. Compress the training data into a ZIP file and upload it to a pre-defined Amazon S3 bucket.
+A . Download the AWS SDK for the Spark environment
 
-B. Download the AWS SDK for the Spark environment
+B . Install the SageMaker Spark library in the Spark environment.
 
-C. Install the SageMaker Spark library in the Spark environment.
+C . Use the appropriate estimator from the SageMaker Spark Library to train a model.
 
-D. Convert the DataFrame object to a CSV file, and use the CSV file as input for obtaining inferences from SageMaker.
+D . Compress the training data into a ZIP file and upload it to a pre-defined Amazon S3 bucket.
 
-E. Use the sageMakerModel. transform method to get inferences from the model hosted in SageMaker
+E . Use the sageMakerModel. transform method to get inferences from the model hosted in SageMaker
 
-F. Use the appropriate estimator from the SageMaker Spark Library to train a model.
+F . Convert the DataFrame object to a CSV file, and use the CSV file as input for obtaining inferences from SageMaker.
+
