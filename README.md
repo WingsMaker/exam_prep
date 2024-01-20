@@ -26,6 +26,7 @@ You can filter by topic using the toolbar above.</p>
 
 
 Sample materials
+
 <a href='https://github.com/Ditectrev/Amazon-Web-Services-Certified-AWS-Certified-Machine-Learning-MLS-C01-Practice-Tests-Exams-Question?tab=readme-ov-file#a-large-company-has-developed-a-bi-application-that-generates-reports-and-dashboards-using-data-collected-from-various-operational-metrics-the-company-wants-to-provide-executives-with-an-enhanced-experience-so-they-can-use-natural-language-to-get-data-from-the-reports-the-company-wants-the-executives-to-be-able-ask-questions-using-written-and-spoken-interfaces-which-combination-of-services-can-be-used-to-build-this-conversational-interface-choose-three'>Github Ditectrev</a>
 
 <a href='https://www.passnexam.com/amazon/mls-c01/1'>Passnexam</a>
