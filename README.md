@@ -24,11 +24,3 @@ You can filter by topic using the toolbar above.</p>
 
 <a href='https://wingsmaker.github.io/exam_prep/exam_prep.html'>exam_prep web app</a>
 
-
-Sample materials
-
-<a href='https://github.com/Ditectrev/Amazon-Web-Services-Certified-AWS-Certified-Machine-Learning-MLS-C01-Practice-Tests-Exams-Question?tab=readme-ov-file#a-large-company-has-developed-a-bi-application-that-generates-reports-and-dashboards-using-data-collected-from-various-operational-metrics-the-company-wants-to-provide-executives-with-an-enhanced-experience-so-they-can-use-natural-language-to-get-data-from-the-reports-the-company-wants-the-executives-to-be-able-ask-questions-using-written-and-spoken-interfaces-which-combination-of-services-can-be-used-to-build-this-conversational-interface-choose-three'>Github Ditectrev</a>
-
-<a href='https://www.passnexam.com/amazon/mls-c01/1'>Passnexam</a>
-
-<a href='https://www.certifystart.com/category/MLS-C01/id-533.html'>Certifystart</a>
