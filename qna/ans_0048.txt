@@ -1,2 +1,8 @@
 Answers : A
 
+﻿A. Bundle the NVIDIA drivers with the Docker image
+
+To leverage the NVIDIA GPUs for training, the Specialist needs to bundle the NVIDIA drivers with the Docker image. This can be done by creating a custom Docker image that includes the necessary NVIDIA drivers and installing them during the build process. Once the image is created, it can be used to train the ResNet model on Amazon SageMaker.
+
+Option B (Build the Docker container to be NVIDIA-Docker compatible) does not provide any additional benefit for leveraging the NVIDIA GPUs for training. Option C (Organize the Docker container's file structure to execute on GPU instances) is a good practice, but it is not necessary for leveraging the NVIDIA GPUs for training. Option D (Set the GPU flag in the Amazon SageMaker Create TrainingJob request body) is not related to leveraging the NVIDIA GPUs for training and does not provide any additional benefit.
+
