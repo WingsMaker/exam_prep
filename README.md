@@ -24,7 +24,7 @@ You can filter by topic using the toolbar above.</p>
 
 <a href='https://wingsmaker.github.io/exam_prep/exam_prep.html'>exam_prep web app</a>
 
-Tips :
+<h3>Tips :</h3>
 
 You can use gpt4all (local storage based GPT model 
 ![image](https://github.com/WingsMaker/exam_prep/assets/32192638/9a5072bd-8d68-452b-abcc-4a536c75e7d1)
