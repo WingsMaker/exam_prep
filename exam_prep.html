@@ -19,6 +19,7 @@
 	<div id="cht"></div>
 	<br>
 	<input type="range" min="1" max="300" value="1" id="qrng" style="width: 100%">
+	<label for="qrng">Side thru to choose from the questions</label>
 	<br>
 	<br>
 	<br>
@@ -26,10 +27,12 @@
 	<input id="prev" type="submit" value="Prev" style="height: 80px;width: 100px"/>
 	<input id="next" type="submit" value="Next" style="height: 80px;width: 100px"/>
 	<input id="voice" type="submit" value="Voice" style="height: 80px;width: 100px"/>
-	<input id="screen" type="submit" value="Mobile" style="height: 80px;width: 100px"/>
 	<br>
-	<label for="rate">Speed:</label>
+	<label for="rate">Voice speed : slower to faster</label>
 	<input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+	<br>
+	<label for="ratio">Font size : smaller to bigger</label>
+	<input type="range" min="1" max="8" value="4" step="1" id="ratio" />
 </div>
 <hr>
 </body>
@@ -51,13 +54,12 @@ document.getElementById("qrng").min = "1";
 document.getElementById("qrng").value = "1";
 display_content(1);
 
-
 if ( ( window.innerWidth <= 1024 ) && ( window.innerHeight <= 2048 ) ) {
-	desktop_mode = 0;
-	mobile_screen();
+	resize_screen(6);
+	document.getElementById("rate").value = 6;
 } else {
-	desktop_mode = 1;
-	desktop_screen();
+	resize_screen(4);
+	document.getElementById("rate").value = 4;
 }
   
 $(document).ready(function(){
@@ -135,6 +137,11 @@ document.getElementById("rate").oninput = function() {
 	voice.rate = r;
 }
 
+document.getElementById("ratio").oninput = function() {
+	r = document.getElementById("ratio").value;
+	resize_screen(r);
+}
+
 function display_content(ii) {
 	var fn,cht,prefix;
 	if( qnmode==0 ) {
@@ -170,47 +177,26 @@ function textToSpeech(msg) {
 	synth.speak(voice);
 }
 
-function mobile_screen() {
-	document.getElementById("exam").style.fontSize = "40px";
-	document.getElementById("viewqn").style.fontSize = "40px";
-	document.getElementById("viewqn").style.width = "180px";
-	document.getElementById("viewqn").style.height = "200px";
-	document.getElementById("prev").style.fontSize = "40px";
-	document.getElementById("prev").style.width = "150px";
-	document.getElementById("prev").style.height = "200px";
-	document.getElementById("next").style.fontSize = "40px";
-	document.getElementById("next").style.width = "150px";
-	document.getElementById("next").style.height = "200px";
-	document.getElementById("voice").style.fontSize = "40px";
-	document.getElementById("voice").style.width = "150px";
-	document.getElementById("voice").style.height = "200px";
-	document.getElementById("screen").value = "Desktop";
-	document.getElementById("screen").style.fontSize = "40px";
-	document.getElementById("screen").style.width = "180px";
-	document.getElementById("screen").style.height = "200px";
-	desktop_mode = 0;
-}
-
-function desktop_screen() {
-	document.getElementById("exam").style.fontSize = "20px";
-	document.getElementById("viewqn").style.fontSize = "20px";
-	document.getElementById("viewqn").style.width = "100px";
-	document.getElementById("viewqn").style.height = "80px";
-	document.getElementById("prev").style.fontSize = "20px";
-	document.getElementById("prev").style.width = "100px";
-	document.getElementById("prev").style.height = "80px";
-	document.getElementById("next").style.fontSize = "20px";
-	document.getElementById("next").style.width = "100px";
-	document.getElementById("next").style.height = "80px";
-	document.getElementById("voice").style.fontSize = "20px";
-	document.getElementById("voice").style.width = "100px";
-	document.getElementById("voice").style.height = "80px";
-	document.getElementById("screen").value = "Mobile";
-	document.getElementById("screen").style.fontSize = "20px";
-	document.getElementById("screen").style.width = "100px";
-	document.getElementById("screen").style.height = "80px";
+function resize_screen(idx) {
+	if ( idx==0 ) {
+		return;
+	}
+	document.getElementById("exam").style.fontSize = (5 * idx).toString() + "px";
+	document.getElementById("viewqn").style.fontSize = (5 * idx).toString() + "px";
+	document.getElementById("viewqn").style.width = (25 * idx).toString() + "px";
+	document.getElementById("viewqn").style.height = (20 * idx).toString() + "px";
+	document.getElementById("prev").style.fontSize = (5 * idx).toString() + "px";
+	document.getElementById("prev").style.width = (25 * idx).toString() + "px";
+	document.getElementById("prev").style.height = (20 * idx).toString() + "px";
+	document.getElementById("next").style.fontSize = (5 * idx).toString() + "px";
+	document.getElementById("next").style.width = (25 * idx).toString() + "px";
+	document.getElementById("next").style.height = (20 * idx).toString() + "px";
+	document.getElementById("voice").style.fontSize = (5 * idx).toString() + "px";
+	document.getElementById("voice").style.width = (25 * idx).toString() + "px";
+	document.getElementById("voice").style.height = (20 * idx).toString() + "px";
 	desktop_mode = 1;
 }
+
 
 </script>
 
