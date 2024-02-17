@@ -19,11 +19,6 @@ You can filter by topic using the toolbar above.</p>
 
 <a href='https://aws.amazon.com/certification/certification-prep/'>AWS Certification exam preparation</a>
 
-
-<h3>Click here to launch the app</h3>
-
-<a href='https://wingsmaker.github.io/exam_prep/exam_prep.html'>exam_prep web app</a>
-
 <h3>Tips :</h3>
 
 You can use gpt4all (local storage based GPT model 
