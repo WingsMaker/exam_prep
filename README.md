@@ -11,8 +11,7 @@
 <br>
 
 <h3>AWS Workshops on AI/ML</h3>
-<p>This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems.
-You can filter by topic using the toolbar above.</p><br>
+<p>This website lists workshops created by the teams at Amazon Web Services (AWS). Workshops are hands-on events designed to teach or introduce practical skills, techniques, or concepts which you can use to solve business problems. You can filter by topic using the toolbar above.</p>
 <br>
 <a href='https://workshops.aws/categories/AI%2FML'>AI/ML Workshops</a><br>
 <br>
