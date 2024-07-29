@@ -21,7 +21,8 @@
 
 <h3>Tips :</h3>
 You can use gpt4all (local storage based GPT model <br>
-![image](https://github.com/WingsMaker/exam_prep/assets/32192638/9a5072bd-8d68-452b-abcc-4a536c75e7d1)
+![image](https://github.com/user-attachments/assets/843abd40-7921-4db0-909b-97ec152f147a)
+
 
 See<br>
 <br>
