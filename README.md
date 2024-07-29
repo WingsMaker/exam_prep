@@ -19,12 +19,4 @@
 
 <a href='https://aws.amazon.com/certification/certification-prep/'>AWS Certification exam preparation</a>
 
-<h3>Tips :</h3>
-You can use gpt4all (local storage based GPT model <br>
-![image](https://github.com/user-attachments/assets/843abd40-7921-4db0-909b-97ec152f147a)
-
-
-See<br>
-<br>
-<a href='https://github.com/nomic-ai/gpt4all'>GPT4All</a>
 
